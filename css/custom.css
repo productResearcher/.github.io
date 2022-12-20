@@ -1,0 +1,173 @@
+/* CSS Document created by Abdulkadir Mohammed Tue 15 June 2021*/
+/*Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&display=swap');
+/*animate.style import */
+import 'animate.css';
+
+/*Body*/
+body {
+    color: #D9D9D9 !important;
+    font-size: 16;
+    line-height: ;
+    letter-spacing: 0.5;
+}
+
+/***********
+NAVIGATION BAR 
+ ***********/
+.projects {
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow .3s;
+}
+
+.projects:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    /*Animate css*/
+    display: block;
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 20s;
+    /* don't forget to set a duration! */
+}
+
+/*Body */
+.heading {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.heading-p {
+    font-weight: 100;
+    color: gray;
+}
+
+/* project */
+
+.p-tittle {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+p {
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+}
+
+.italic {
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-weight: 300;
+}
+}
+
+.story {
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.d-flex {
+    font-size: 0.7rem;
+    color: #EFEFEF;
+}
+
+.tiny-description {
+    font-weight: 100;
+    font-size: 0.75rem;
+    color: #EFEFEF !important;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    /*put a space between both items to move them each to the extreme end.*/
+    justify-content: space-between;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+/*Card */
+.card {
+    background-color: #1F2124 !important;
+}
+
+.card-body {
+    padding: 2px !important;
+}
+
+.card-text {
+    padding: 30px 0px 30px 0px;
+}
+
+.align-extreme-end {
+    margin-left: 70% !important;
+}
+
+/*Vertical Rule*/
+.vl {
+    border-left: 2px dashed rgb(216, 216, 216);
+    height: 0.2em;
+    margin: 0px 2px 0px 4px;
+}
+
+/*Tag Section*/
+.bd-highlight {
+    border: 2px dashed rgba(145, 145, 145, 0.15);
+    color: #000000;
+    background: #B7B7B7;
+    text-transform: uppercase;
+}
+
+/*buttons*/
+.btn-warning {
+    background-color: #FEB960 !important;
+    color: #515050 !important;
+    padding: 40px 30px 40px 30px !important;
+    text-align: center;
+
+}
+
+/*Dividers are for making spaces inbetween divs*/
+.divider-small {
+    padding: 5px;
+    margin: 10px;
+}
+
+.divider-medium {
+    padding: 10px;
+    margin: 20px;
+}
+
+.divider-large {
+    padding: 50px;
+    margin: 50px;
+}
+
+/*Project-intor-images*/
+.project-intro-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/*Project-site elements*/
+.project-site {
+    color: #ffffff;
+    padding-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/*On hover, change the color of the project-site to Yellow Orange*/
+.project-site:hover {
+    color: #FEB960 !important;
+}
