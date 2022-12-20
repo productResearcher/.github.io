@@ -1,0 +1,9 @@
+ADBULKADIR PORTFOLIO WEBSITE DEVELOPER NOTES
+
+
+1. I used font awesome icons, linked in "all.css"
+2. Bootstrap v5.0.1
+
+30 I turned to 10
+
+46 I turned to 15
