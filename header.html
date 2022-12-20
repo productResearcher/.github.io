@@ -29,12 +29,12 @@
     background-color: #FEB960 !important;
      color: #000000  !important;
 }
- .nav-li.active{
+ .nav-li.active {
 	background-color: #FEB960 !important;
      color: #000000  !important;
 }
 
-.navbar-brand{
+.navbar-brand {
 	color: #d1d1d1 !important;
     padding: 10px;
     margin-left: -20px;
@@ -49,25 +49,30 @@
     margin: 2px;
 }
 /*Menu */
-.jobtittle 
-{
+.jobtittle {
 	font-weight: 100;
 	font-size: 1.1rem;
 	letter-spacing: 5px;
 }
           
 /*Project counter showing how many projects i have done so far*/
-.project_counter 
-{
+.project_counter{
     min-width: 100px;
     margin: 10px;
+    
     background-image: repeating-linear-gradient(-60deg, #515050, #515050 20px, transparent 20px, transparent 30px, #515050 30px), repeating-linear-gradient(30deg, #515050, #515050 20px, transparent 20px, transparent 30px, #515050 15px), repeating-linear-gradient(120deg, #515050, #515050 10px, transparent 20px, transparent 30px, #515050 30px), repeating-linear-gradient(210deg, #515050, #515050 20px, transparent 20px, transparent 30px, #d1d1d1 30px);
     background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
     background-position: 0 0, 0 0, 100% 0, 0 100%;
     background-repeat: no-repeat;
     
 }
-          /*Counter represents the amount of projects i have done so far*/
+ /* Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint*/
+@include media-breakpoint-up(sm) {
+  .project_counter {
+    padding-right: 10px;
+  }
+}
+/*Counter represents the amount of projects i have done so far*/
 .counter 
 {
     font-size: 3.2rem;
