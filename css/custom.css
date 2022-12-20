@@ -171,3 +171,6 @@ i {
 .project-site:hover {
     color: #FEB960 !important;
 }
+a {
+    text-decoration: none;
+}
