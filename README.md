@@ -8,7 +8,7 @@ Link to the Live Site
 
 ## Description
 
-My portfolio. 
+My portfolio.. 
 
 
 ## Table of Contents
@@ -20,10 +20,10 @@ My portfolio.
 
 
 #### About the project
-The project is designed to test what I learnt during module two training, the challenge was put in a way that I had to use most of the things I learned from the beginning of the course until now.
+The project is....
 
 #### Results
-I was able to meet all criteria for the challenge, develop the site and deploy it on GitHub.
+I was able b.
 
 ## Tests
 ### Testing simple static website is fairly easy, I focused testing the UI.
@@ -52,14 +52,14 @@ I checked to make sure it is an error free webpage, this includes UI and Console
 #### Test 7: Validating with W3 validator.
 Corrected all errors that came up in W3 validator.
 Made sure it is validated and follows the W3C sttandard, check the error free site result image below.
-![W3c Validator Results](images/w3c-validator-results.png "image of W3c test result showing a clean valid site.")
+![W3c Validator Results](images/ "image of W3c test result showing a clean valid site.")
 
 #### Test 8: Check loading speed using chrome dev tools.
 Used network tab to explore opportunitites to improve site performance:
-![Google dev tools network image](images/google-devtools-network-tab.png "Image of Google Developer Tools Networks tab, showing Module two challenge site netowkr load time and other elements")
+![Google dev tools network image](images/ "Image of Google Developer Tools Networks tab, showing Module two challenge site netowkr load time and other elements")
 
 Using performance tab to check performance:
-![Google develover tools Performance tab image](images/google-devtools-performance-tab.png "Image of Google Developer Tools Performance tab, showing the performance of Module two challenge site")
+![Google develover tools Performance tab image](images/"Image of Google Developer Tools Performance tab, showing the performance of Module two challenge site")
 
 No futher tests reqauired as this is a one page static site.
 
