@@ -1,0 +1,114 @@
+/*************************
+CSS by Abdulkadir Mohammed
+*************************/
+
+/*****************************************************************************
+Copy righted material, do not copy this code or share it whithout my permision 
+*****************************************************************************/
+
+/**************************************************************************************************************
+GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+**************************************************************************************************************/
+
+/*************
+MATERIAL SYMBOLS USED IN THIS FILE   
+**************/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*************
+CONTAINER AREA
+**************/
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/**********
+HEADER AREA 
+***********/
+/* center all headder content, and center all text*/
+.header {
+    padding: 5px;
+    background-color:  #ffffff;
+}
+/*style logo*/
+.logoWrapper {
+    float: left;
+    padding:10px 100px 10px 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:100;
+    color: #838383;
+}
+.logo {
+    width: 100px;
+    float: left;
+}
+.logo-text {
+    margin-top: -20px;
+}
+/********
+MENU AREA
+********/
+#menu {
+    padding: 20px;
+    background-color: #FFF9F1;
+    
+}
+#menu a {
+    padding: 20px;
+     text-decoration: none;
+}
+/*styling row*/
+
+/*Create three equal columns that float next to each other*/
+.col {
+    margin:auto;
+    float: left;
+    width:15%;
+    padding: 10px;
+    height: 100px;
+}
+/* clear float after the columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+/* Style the search box inside the menu */
+.search{
+    outline: none;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.search:focus{
+    border: 2px solid #FF9B04;
+}
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px){
+    #menu .col {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 14px;
+    }
+} 
+
+/***********
+CONTENT AREA
+***********/

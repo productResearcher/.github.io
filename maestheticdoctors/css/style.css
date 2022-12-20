@@ -1,0 +1,713 @@
+/*------------------------------------------------------------------
+
+Project:	Treviso - One page multi purpose page
+Version:	1.0
+Last change:	17/08/2015 [...]
+Designed by:	MOOZ Themes / www.MOOZthemes.com
+Primary use:	One page
+
+/*------------------------------------------------------------------
+
+Project:	Maesthetic 
+Last Edit:	02/09/2018 
+
+Webpage UI designed by: Impro studio
+
+/*--------------------
+Import Google Fonts
+--------------------*/
+
+/* main font for menu. */
+@import url(https://fonts.googleapis.com/css?family=Anaheim|Roboto+Mono:200,300,400,500,700,900);
+
+/*--------------------
+1. General
+--------------------*/
+
+body {
+    height: 100%;/*--fixing the footer--*/
+	/*--margin: 0px;--*/
+	font-family: 'Anaheim', sans-serif, 'roboto mono';
+    letter-spacing: 1.6px;
+}
+
+
+.img-fluid {
+    max-width: 100%; 
+    width:30%;
+    height: auto;   
+}
+
+
+#titles {
+    font-family: 'Anaheim', sans-serif, 'roboto mono';
+    text-align: center;
+    font-weight: bold;
+    float:none;
+}
+
+.container-fluid {
+    padding-bottom: 50px;
+
+    
+}
+
+.us {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+     padding:100px 50px 100px 50px; 
+}
+
+hr {
+    background: #000;
+    height: 1px;
+}
+
+.greeting{
+	font-family: 'Anaheim', sans-serif;
+	font-size: 0.1rem;
+	font-weight: 300;
+	line-height: 33px;
+	margin-top: 0px;	
+}
+.welcome{
+    font-size: 2em;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+/* for underlined input box */
+input,.textarea,
+select,.form-control {
+  background: transparent;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  text-align: center;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 200;
+	letter-spacing: 0.4px;
+	font-family: "Anaheim", Sans-serif;
+}
+
+a:hover, a:focus, a:active, a.active {
+    opacity: .7;
+}
+a, a:hover, a:focus, a:active, a.active {
+    outline: 0;
+}
+a:hover {
+    color: lightgray !important;
+}
+.btn:hover {
+    color: black !important;
+}
+.btn .btn-primary btn-send{
+    color: #CBC8C8 !important;
+}
+
+
+::selection {
+    text-shadow: none;
+    background: #CBC8C8;
+}
+
+@media (min-width: 768px) {
+	section {
+	    padding: 150px 0;
+	}
+}
+
+section {
+	padding: 35px 0 60px;
+}
+
+/*--------------------
+1.1 Reset bootstrap
+--------------------*/
+
+.row-0-gutter {
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.col-0-gutter {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*--------------------
+2. Navigation
+--------------------*/
+.reachUs {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 5.07px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+.nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+  
+}
+
+/*--------------------
+4. Sections
+--------------------*/
+
+.section-title {
+	padding-bottom: 30px;
+}
+.img-fluid {
+    border: 3px;
+}
+
+.logo{
+    width:200px;
+}
+
+.section-title h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.section-title p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 33px;
+	margin: 25px 100px 30px 100px;
+}
+
+.mz-module .section-title {
+    padding: 40px 0;
+}
+
+/*--------------------
+4.1. About
+--------------------*/
+
+.mz-about-container {
+    padding: 0 50px;
+    color: #fff;
+}
+
+.mz-module-about {
+	padding: 20px;
+}
+
+.mz-about-default {
+    background-color: #252525;
+}
+
+.mz-about-dark {
+    background-color: #2B2B2B;
+}
+
+.mz-module-about h3 {
+font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    }
+
+.mz-module-about p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 27px;
+	color: #9C9C9C;
+}
+
+.ot-circle {
+	text-align: center;
+	color: #E8E8E8;
+	margin: 40px 0;
+	font-size: 37px;
+}
+/*--------------------
+4.3. Portfolio
+--------------------*/
+
+figure {
+	position: relative;
+    overflow: hidden;
+    margin: 0 1px 1px 0;
+    background: #726FB9;
+    text-align: center;
+    cursor: pointer;	
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}
+
+.ot-portfolio-item figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+.ot-portfolio-item figure figcaption, .ot-portfolio-item figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure.effect-bubba {
+	background: #000;
+	margin-bottom: 1px;
+}
+
+figure.effect-bubba img {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-bubba:hover img {
+	opacity: 0.4;
+}
+
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-bubba figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figure.effect-bubba figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+figure.effect-bubba h2 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+	padding-top: 30%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+
+figure.effect-bubba p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+	padding: 20px 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*--------------------
+4.4. Dark Short section (counters, quote, etc)
+--------------------*/
+
+.light-bg {
+    background: #f1f1f1;
+}
+
+/*--------------------
+4.5. Intro Text
+--------------------*/
+
+.intro-section {
+	padding: 60px 0 0 0;
+	margin: 0;
+}
+
+.intro-section .section-title {
+/*	padding: 0px 85px; */
+	text-align: justify;	
+}
+
+.intro-section p {
+	font-size: 14px;
+	color: #6B6B6B;
+	font-weight: 500;
+	line-height: 32px;
+	padding: 47px;
+	font-family: "Raleway";
+	margin: 0;
+	background-color: #F9F9F9;
+}
+
+/*--------------------
+4.6. Team
+--------------------*/
+
+.team-item {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.team-item h3 {
+font-size: 25px;
+    font-weight: 300;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}
+
+.team-item .team-position {
+color: #565656;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.team-item p {
+	font-size: 13px;
+	font-weight: 500;
+	color: #848484;
+	padding: 18px 30px 35px 30px;
+	line-height: 24px;
+}
+/*--------------------
+4.7. Testimonials
+--------------------*/
+.section {
+  padding: 30px 0;
+  position: relative;
+  background-color: #FFFFFF;
+}
+.section-testimonials .carousel-control {
+  left: -70px;
+}
+ .section-testimonials .carousel-control .fa {
+  top: 40%;
+}
+ .section-testimonials .carousel-control.right {
+  right: -40px;
+  left: auto;
+}
+
+/*--------------------
+4.7. Contacts
+--------------------*/
+
+section#contact form {
+    width: 60%;
+    margin: 15px auto;
+}
+
+section#contact.form-group {
+margin-bottom: 25px;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+    padding: 15px;
+    border: 1px solid #BBBBBB;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    font-size: 13px;
+    letter-spacing: 2.6px;
+}
+
+.contact h3 {
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 13px;
+}
+
+.contact .day {
+    display: inline-block;
+    width: 80px;
+}
+
+.contact i {
+    margin-right: 5px;
+}
+
+
+/*-------------------
+Social
+--------------------*/
+.center-social{
+display: inline-block;
+}
+ul {
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+}
+
+ul li a i {
+	background: #605E5E;
+	color: #fff;
+	width: 220px;
+	height: 220px;
+	border-radius: 0px;
+	font-size: 150px !important;
+	text-align: center;
+	padding-top: 15%;
+}
+ul li a i {
+	transition: all 0.2s ease-in-out;
+}
+
+a:hover{
+	opacity: .7;
+}
+/*--------------------
+5. Footer
+--------------------*/
+.no-gutter > [class*='col-'] {
+    padding-left:0;
+}
+
+.foot {
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+.foot1{
+   font-size: 3rem;
+    
+}
+
+.foot2{
+    letter-spacing: 10.67px;
+    text-align: center;   
+}
+
+footer {
+    padding: 30px;
+    background-color: #000;    
+}
+
+footer p {
+    color: #B7B7B7;
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p a span {
+    color: #1B9ED6;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+/*--------------------
+6. Modal
+--------------------*/
+
+.modal-content {
+	border-radius: 0;	
+}
+.modal-header .close {
+	font-size: 30px;	
+}
+.modal-title {    
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body p {
+	margin: 30px 20px;
+	color: #2D2D2D;		
+}
+
+.modal-works {
+font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    margin: 25px 20px;
+}
+
+.modal-works span {
+	background-color: #605E5E;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+/* Blur background on modal popup */
+body.modal-open > :not(.modal){
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+/*--------------------
+7. Components
+--------------------*/
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    color: #000000;
+    background-color: #CBC8C8;
+    border-color: #CBC8C8;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
+    color: #000000;
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-size: 19px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    width: 200px;
+    border-radius: 0px;
+}
+
+/* Back to top button
+---------------------------------- */
+#back-top {
+    position: fixed;
+    z-index: 1000;
+    bottom: 40px;
+    right: 50px;
+}
+#back-top a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #A9A9B1;
+    /* background color transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    background: #CBC8C8;
+}
+/* arrow icon (span tag) */
+#back-top i {
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+#back-top {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+#back-top a {
+    width: 40px;
+    height: 40px;
+}
+#back-top i {
+    margin-top: 7px;
+    font-size: 20px;
+}
+}
