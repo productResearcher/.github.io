@@ -1,7 +1,7 @@
 # Abdulkadir Mohammed's UI UX & Front End Developer Portfolio
  
  What the site looks like:
-![Module 2 challenge website screen shot.](images/ "Site screenshot")
+![Abdul's Portfolio.](images/ "Site screenshot")
 - - - 
 Link to the Live Site
 [abdul's portfolio]: https://www.abdul.today/ 
