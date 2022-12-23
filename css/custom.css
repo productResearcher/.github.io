@@ -104,6 +104,7 @@ i {
 
 .card-text {
     padding: 30px 0px 30px 0px;
+    font-size: 30px !important
 }
 
 .align-extreme-end {
@@ -120,9 +121,10 @@ i {
 /*Tag Section*/
 .bd-highlight {
     border: 2px dashed rgba(145, 145, 145, 0.15);
-    color: #000000;
-    background: #B7B7B7;
+    color: #ffffff !important;
+    background: #1F2124;
     text-transform: uppercase;
+    font-size: 1vw;
 }
 
 /*buttons*/
@@ -152,10 +154,8 @@ i {
 
 /*Project-intor-images*/
 .project-intro-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
     background: #FFFFFF;
+    width: 100%;
 }
 
 /*Project-site elements*/
@@ -171,6 +171,51 @@ i {
 .project-site:hover {
     color: #FEB960 !important;
 }
+
 a {
     text-decoration: none;
+}
+
+/*Floating back button: the button id designed to stay untop of everything and in one place with alignment top of 30 and bottom of 70,*/
+.back-btn {
+    background: #FEB960 !important;
+    position: absolute;
+    top: 500px;
+    left: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 500;
+    /*Hide the "go back" text*/
+    height: 40px;
+    /*Show the "go back" button on hover*/
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+    max-width: 50px;
+    /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+
+}
+
+.back-btn:hover {
+    max-width: 300px;
+     display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    width: auto;
+     -webkit-transition: max-width 2s;
+    transition: max-width 2s;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+}
+
+.go-back {
+    white-space: nowrap;
 }
