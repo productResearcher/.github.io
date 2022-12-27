@@ -53,7 +53,7 @@ NAVIGATION BAR
 
 p {
     font-weight: 100;
-    letter-spacing: 0.03rem;
+    line-height: 1.6 !important;
 }
 
 .italic {
@@ -156,6 +156,13 @@ i {
 .project-intro-img {
     background: #FFFFFF;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/*More than one project image should be in a row with a margin of two pixels*/
+.project-img-md{
+    width: 30% !important;
+    margin-left: 5px !important;
 }
 
 /*Project-site elements*/
@@ -200,7 +207,7 @@ a {
     transition: max-width 0.5s;
 
 }
-
+/*back button that hovers and is in a permanent position on the left*/
 .back-btn:hover {
     max-width: 300px;
      display: inline-flex;
@@ -210,12 +217,17 @@ a {
      -webkit-transition: max-width 2s;
     transition: max-width 2s;
 }
-
+/* change the display to a flex and align it to the center*/
 .material-symbols-outlined {
     display: flex;
     align-items: center;
 }
-
+/*Hide the whittespace*/
 .go-back {
     white-space: nowrap;
+}
+/*change the background and text colors to look like the page theme*/
+.list-group > .list-group-ite{
+    background: #1F2124 !important;
+        color:  #D9D9D9;
 }
