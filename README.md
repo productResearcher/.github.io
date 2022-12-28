@@ -8,7 +8,9 @@ Link to the Live Site
 
 ## Description
 
-My portfolio.. 
+My portfolio. is where I showcase my skills and past work to be able to attract employers and clients.
+
+You will find a UX skills and a front end development skills page where you will witness my capabilities through project descriptions.
 
 
 ## Table of Contents
@@ -20,16 +22,18 @@ My portfolio..
 
 
 #### About the project
-The project is....
+My portfolio is a life long ongoing project that is quite anoying to keep up with, but it is a requirement in my field of work, CV does not do justice to proofing my skills.
 
 #### Results
-I was able b.
+I have been building my portfolio since I decided to pursue this career, It has been a long and challenging journey but I keep going.
+
+The current portfolio is developed in Bootstrap, HTML, CSS, and Js. Hopefully I will creat a CRM in October CMS as planned to make portfolio writing easier.
 
 ## Tests
 ### Testing simple static website is fairly easy, I focused testing the UI.
 #### Test 1: The GUI design:
-I compared the reference design with my developed website.
-I checked all the sections are presented the same way as the design.
+I compared the reference design with my developed website, the result is simillar with a little change in the development stage.
+I checked all the elements are presented the same way as the design, and redesigned the newly added elements in development.
 
 #### Test 2: The fonts.
 I checked the font size, font spacing and colour to make sure everything is reproduced as the design. 

@@ -45,12 +45,6 @@ END NAV SECTION  /
                 </p>
             </div>
         </div>
-    </div>
-    <!-- Intro/ -->
-    <div class="divider-medium"></div>
-    <!-- Content-->
-    <div class="container-md">
-        <!--Main Container /-->
          <div class="divider-medium"></div>
         <div class="heading">
             PROJECTS
@@ -58,6 +52,12 @@ END NAV SECTION  /
         <p class="heading-p">
             Most recent
         </p>
+    </div>
+    <!-- Intro/ -->
+    <div class="divider-medium"></div>
+    <!-- Content-->
+    <div class="container-fluid">
+        
         <!------------ 
         Project 1 
         -------------->
@@ -66,9 +66,9 @@ END NAV SECTION  /
                 <!--Card-->
                 <div class="row g-0">
                     <div class="col-md-7 project-intro-img">
-                        <img class="img-fluid" src="/Images/inject/inject.png" alt="Inject's company website, developed by Abdul">
+                        <img class="img-fluid ps-4" src="/Images/inject/inject.png" alt="Abdul's portfolio  project: Inject's company website, developed in flutter by Abdul">
                     </div>
-                    <div class="col-md-5 p-4">
+                    <div class="col-md-5 ps-4 pe-3">
                         <div class="card-body">
                             <div class="card-title tiny-description">
                                 INJECT GROUP
@@ -105,10 +105,28 @@ END NAV SECTION  /
                 <i class="fab fa-chrome px-2"></i>
                 Check the site
             </a>
-            <!--TODO: Fix the Bootstrap tooltip -->
-            <a class="project-site" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
+            <!--TODO: Fix the Bootstrap Toast display -->
+            <script>
+     const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+    </script>
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body">
+      Private repo.
+    </div>
+  </div>
+</div>
+            <a class="project-site" id="liveToastBtn" >
                 <i class="fab fa-github-alt px-2"></i>
-                Review the code
+                Private repo, contact to view
             </a>
         </div>
          <div class="divider-large"></div>
@@ -120,9 +138,9 @@ END NAV SECTION  /
                 <!--Card-->
                 <div class="row g-0">
                     <div class="col-md-7 project-intro-img">
-                        <img class="img-fluid" src="../dev/projects/module-one-challenge.png" alt="Abdul's bootcamp class work tittled: Module one challenge.">
+                        <img class="img-fluid ps-4" src="../dev/projects/module-one-challenge.png" alt="Abdul's bootcamp class work tittled: Module one challenge.">
                     </div>
-                    <div class="col-md-5 p-4">
+                    <div class="col-md-5 ps-4 pe-3">
                         <div class="card-body">
                             <div class="card-title tiny-description">
                                <p class="p-2">CLASS WORK: MODULE ONE CHALLENGE</p> <p class="p-2">Sep 2022</p>
@@ -167,9 +185,9 @@ END NAV SECTION  /
                 <!--Card-->
                 <div class="row g-0">
                     <div class="col-md-7 project-intro-img">
-                        <img class="img-fluid" src="../dev/projects/module-two-challenge.png" alt="Abdul's bootcamp class work tittled: Module two challenge. Developed a HTML and CSS site">
+                        <img class="img-fluid ps-4" src="../dev/projects/module-two-challenge.png" alt="Abdul's bootcamp class work tittled: Module two challenge. Developed a HTML and CSS site">
                     </div>
-                    <div class="col-md-5 p-4">
+                    <div class="col-md-5 ps-4 pe-3">
                         <div class="card-body">
                             <div class="card-title tiny-description">
                                 <p class="p-2">CLASS WORK: MODULE TWO CHALLENGE</p> <p class="p-2">Sep 2022</p>
@@ -214,9 +232,9 @@ END NAV SECTION  /
                 <!--Card-->
                 <div class="row g-0">
                     <div class="col-md-7 project-intro-img">
-                        <img class="img-fluid" src="../dev/projects/bootstrap-portfolio.png" alt="Abdul's bootcamp class work tittled: Module three challenge. Developed a Bootstrap website">
+                        <img class="img-fluid ps-4" src="../dev/projects/bootstrap-portfolio.png" alt="Abdul's bootcamp class work tittled: Module three challenge. Developed a Bootstrap website">
                     </div>
-                    <div class="col-md-5 p-4">
+                    <div class="col-md-5 ps-4 pe-3">
                         <div class="card-body">
                             <div class="card-title tiny-description">
                                 <p class="p-2">CLASS WORK: MODULE THREE CHALLENGE</p> <p class="p-2">Sep 2022</p>
@@ -261,9 +279,9 @@ END NAV SECTION  /
                 <!--Card-->
                 <div class="row g-0">
                     <div class="col-md-7 project-intro-img">
-                        <img class="img-fluid" src="../dev/projects/" alt="Blank img file.">
+                        <img class="img-fluid ps-4" src="../dev/projects/" alt="Blank img file.">
                     </div>
-                    <div class="col-md-5 p-4">
+                    <div class="col-md-5 ps-4 pe-3">
                         <div class="card-body">
                             <div class="card-title tiny-description">
                                 <p class="p-2">CLASS WORK: LOADING</p> <p class="p-2">Sep 2022</p> 

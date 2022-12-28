@@ -84,8 +84,13 @@
 
         }
 
-        /* Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint*/
-        @include media-breakpoint-up(sm) {
+        /* 
+        TODO: Fix Alignment in xs, sm, and md displays
+        Hide starting at `min-width: 0`, and then show at the `md` breakpoint
+        
+        */
+        
+        @include media-breakpoint-up(md) {
             .project_counter {
                 padding-right: 10px;
             }
@@ -107,8 +112,7 @@
         /*when shrunk below 600px, arange the menu vertical*/
         @media screen and (max-height: 400px; ) {
 
-            iframe,
-            project_counter {
+            .project_counter {
                 float: none
             }
         }
