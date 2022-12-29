@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Abdul's UX Portfolio</title>
     <!--LOAD HEADER AND FOOTER-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
     <script>
         $(function() {
             $("#header").load("header.html");
@@ -33,16 +34,28 @@
         });
 
     </script>
+    <script>
+        $(function(){
+    var current = location.pathname;
+    $('.nav-a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('index.html').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
+})
+    </script>
 </head>
-        
+
 <body class="container-fluid bg-dark text-light">
     <!-- NavBar -->
-    <div class="container-md">
+    <div class="container-fluid">
         <div id="header"></div>
     </div>
     <!-- NavBar End/ -->
     <!-- Intro -->
-    <div class="container-md">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-10 ml-1">
                 <p class="caption ps-2">
@@ -50,57 +63,47 @@
                 </p>
             </div>
         </div>
-            <div class="divider-medium"></div>
-          <div class="heading">
+        <div class="divider-medium"></div>
+        <div class="heading">
             Featured Projects
         </div>
-        <p class="heading-p">
-            Most recent
-        </p>
     </div>
     <!-- Intro/ -->
 
     <!-- Content-->
     <div class="container-fluid">
-        <!-- Project 1 -->
+        <!--Project 1 -->
         <a class="projects" href="nin.html">
-            <div class="card mb-3 my-5 bg-dark projects-card" style="max-width: 100%;">
-                <!--Card-->
+            <div class="card mb-3 my-5 bg-light projects-card" style="max-width: 100%;">
                 <div class="row g-0">
-                    <div class="project-intro-img">
+                    <div class="col-md-7 project-intro-img">
                         <img class="img-fluid" src="Images/nin/desktop-mobile-home@3x.jpg" alt="Abdul's project topic: Green I.D, Disrupting the government I.D management industry. Looping gif of the app prototype." />
                     </div>
-                    <div class="project-text p-4">
+                    <div class="col-md-5 p-4">
                         <div class="card-body">
-                            <div class="card-title tiny-description">
-                                <p class="p-2">GREEN WALLET</p>
-                                  <div class="d-flex flex-row mb-3">
-                                      <div class="p-2 bd-highlight m-1">
-                                    JUNE-SEP 2022
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    UI UX
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    CREATIVE DIRECTION
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    BRRAND &AMP; BRAND STYLE GUIDE
-                                </div>
-                                 <div class="p-2 bd-highlight m-1">
-                                    Mobile &amp; desktop
-                                </div>
-                                      <div class="p-2 bd-highlight m-1">
-                                    IOS Android &amp; Web 
-                                </div>
+                                <p class="p-2 text-dark">
+                                    GREEN WALLET
+                                </p> 
+                            <div class="text-dark p-tittle">
+                               Web application
                             </div>
-                            </div>
-                            <div class="card-title p-tittle">
-                                Disrupting the government document management industry
-                            </div>
-                            <p class="card-text">
-                                A diaspora service, providing a safer, easier and faster access to government document management.
+                            <p class="text-dark">
+                                  A diaspora service, providing a safer, easier and faster access to government document management.
                             </p>
+                            <div class="d-flex flex-row">
+                                    <div class="p-2 bd-highlight m-1">
+                                        JUNE-SEP 2022
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        UI UX
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        Mobile &amp; desktop
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        IOS Android &amp; Web
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -108,123 +111,114 @@
             <!--/Card-->
         </a>
         <div class="divider-large"></div>
-        <!-- Project 2 -->
-        <a class="projects" href="#">
-            <div class="card mb-3 my-5 bg-dark" style="max-width: 100%;">
-                <!--Card-->
+           <!--Project 2 -->
+        <a class="projects" href="zipay.html">
+            <div class="card mb-3 my-5 bg-light projects-card" style="max-width: 100%;">
                 <div class="row g-0">
-                    <div class=" project-intro-img p-2">
-                        <img src="Images/equinine/all_prototypes.JPG" class="img-fluid float-start w-50 h-100" alt="Abdul's portolio project tittled: N9, a Fitbit for Horses. Image of the cardboard prototypes." />
-                        <img src="Images/equinine/n9.gif" class="img-fluid float-end w-50 p-2" alt="Abdul's portolio project tittled: N9, a Fitbit for Horses. image of the Equin management app." />
+                    <div class="col-md-7 project-intro-img">
+                         <img src="Images/zicorp/zpay_3d.gif" class="img-fluid bg-dark" alt="Abdul's portfolio project tittled: Zipay, mobile wallet" />
                     </div>
-                    <div class="project-text p-4">
+                    <div class="col-md-5 p-4">
                         <div class="card-body">
-                            <div class="card-title tiny-description">
-                                <p class="p-2">N9</p>
-                                 <div class="d-flex flex-row mb-3">
-                                <div class="p-2 bd-highlight m-1">
-                                    FEB-2020
-                                </div>
-                                     <div class="p-2 bd-highlight m-1">
-                                    R&amp;D
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    LEADERSHIP
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    PROJECT MANAGEMENT
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    DESIGN SPRINT
-                                </div>
+                                <p class="p-2 text-dark">
+                                   Zi Pay
+                                </p> 
+                            <div class="text-dark p-tittle">
+                               Android Application
                             </div>
-                            </div>
-                            <div class="card-title p-tittle">
-                                Fitbit for Horses
-                            </div>
-                            <p class="card-text">
-                                In this design sprint session, I helped answer the most pressing question for a startup idea to create fitbit for horses.
+                            <p class="text-dark">
+                                   Mobile wallet: save money, share spending with friends, keep track of your spends, and earn points while doing it.
                             </p>
+                             <div class="d-flex flex-row">
+                                    <div class="p-2 bd-highlight m-1">
+                                        NOV-2019
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        UI UX
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        LEANSTACK
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        IOS
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--/Card-->
         </a>
-        <div class="divider-large"></div>
-        <!-- Project 3 -->
-        <a class="projects" href="#">
-            <div class="card mb-3 my-5 bg-dark " style="max-width: 100%;">
-                <!--Card-->
+         <div class="divider-large"></div>
+           <!--Project 3 -->
+        <a class="projects" href="equinine.html">
+            <div class="card mb-3 my-5 bg-light projects-card" style="max-width: 100%;">
                 <div class="row g-0">
-                    <div class="project-intro-img ">
-                        <img src="Images/zicorp/zpay_3d.gif" class="img-fluid w-100" alt="Abdul's portfolio project tittled: Zipay, mobile wallet">
+                    <div class="col-md-7 project-intro-img">
+                          <div class="bg-white">
+                            <img src="Images/equinine/all_prototypes.JPG" class="img-fluid float-start w-50 p-2" alt="Abdul's portolio project tittled: N9, a Fitbit for Horses. Image of the cardboard prototypes." />
+                            <img src="Images/equinine/n9.gif" class="img-fluid float-end w-50 p-2" alt="Abdul's portolio project tittled: N9, a Fitbit for Horses. image of the Equin management app." />
+                        </div>
                     </div>
-                    <div class="project-text p-4">
+                    <div class="col-md-5 p-4">
                         <div class="card-body">
-                            <div class="card-title tiny-description">
-                                <p class="p-2">Zi Pay</p>
-                                  <div class="d-flex flex-row mb-3">
-                                 <div class="p-2 bd-highlight m-1">
-                                     NOV-2019
-                                </div>
-                                      <div class="p-2 bd-highlight m-1">
-                                    CONTINUOUS INNOVATION
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    R&amp;D
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    DESIGN
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    PROJECT MANAGEMENT
-                                </div>
-                                <div class="p-2 bd-highlight m-1">
-                                    STRATEGY
-                                </div>
+                                <p class="p-2 text-dark">
+                                   N9
+                                </p> 
+                            <div class="text-dark p-tittle">
+                               Design sprint
                             </div>
-                            </div>
-                            <div class="card-title p-tittle">
-                                Mobile wallet
-                            </div>
-                            <p class="card-text">
-                                Save money, share spending with friends, keep track of your spends, and earn points while doing it.
+                            <p class="text-dark">
+                                   Design sprint session, answering the most pressing question for a Fitbit for horses.
                             </p>
+                              <div class="d-flex flex-row">
+                                    <div class="p-2 bd-highlight m-1">
+                                        FEB-2020
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        Design Sprint
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        LEADERSHIP
+                                    </div>
+                                    <div class="p-2 bd-highlight m-1">
+                                        PROJECT MANAGEMENT
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--/Card-->
         </a>
-        <!-- ---------------------------------------------- 
-----------------------------------------------------
-END PROJECTS SECTION  /
-----------------------------------------------------
---------------------------------------------------->
+        <!-- END PROJECTS SECTION  /-->
         <div class="divider-large"></div>
         <div class="container mt-5">
             <h1 class="heading">OLDER PROJECTS </h1>
             <p class="heading-p">A little bit of history</p>
             <!-- Project row-->
-            <div class="row">
+            <div class="col">
                 <!-- divroject 1-->
-                <div class="col">
-                    <div class="card bg-secondary text-light old-project">
-                        <div class="card-body">
-                            <a class="link-light" href="/maestheticdoctors/index.html" target="_blank"">
-                        <img src="Images/maesthetic/maesthetic.png" class="img-fluid" alt="...">
-                            <div class="card-title tiny-description">M AESTHETIC DOCTORS</div>
-                            <h5 class="card-title">Responsive website design.</h5>
-                            <p>
-                                An Esthetic company website designed to showcase their services, and display information.
-                            </p>
-                                </a>
+                <div class="row">
+                    <a class="link-light" href="/maestheticdoctors/index.html" target="_blank">
+                        <div class="card bg-light  old-project" style="width: 20rem;">
+                            <img src=" Images/maesthetic/maesthetic.png" class="img-fluid" alt="Abdul's portolio image, of Maesthetic website landing page.">
+                            <div class="card-body">
+                                <div class="card-title tiny-description">
+                                    M AESTHETIC DOCTORS
+                                </div>
+                                <h6 class="text-dark">
+                                    Responsive website design.
+                                </h6>
+                                <p class="text-dark">
+                                    An Aesthetic company website designed to showcase their services, and display information.
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- /project 1-->
-               
+
             </div>
             <!-- /Project row-->
         </div>

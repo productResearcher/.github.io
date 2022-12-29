@@ -11,31 +11,11 @@ body {
     line-height: ;
     letter-spacing: 0.5;
 }
-.container-fluid{
+/* Remove padding and margin to make it fill the screen.
+.container-fluid {
     padding: 0px !important;
     margin: 0px !important;
-    
-}
 
-/***********
-NAVIGATION BAR 
- ***********/
-.projects {
-    text-decoration: none;
-    color: inherit;
-    transition: box-shadow .3s;
-}
-
-.projects:hover {
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-    /*Animate css*/
-    display: block;
-    animation: pulse;
-    /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 20s;
-    /* don't forget to set a duration! */
 }
 
 /*Body */
@@ -84,9 +64,7 @@ h2 {
 }
 
 .tiny-description {
-    font-weight: 100;
-    font-size: 0.70rem;
-    color: #EFEFEF !important;
+    color: #000000 !important;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -99,17 +77,9 @@ i {
 }
 
 /*Card */
-.card {
-    background-color: #1F2124 !important;
-}
 
 .card-body {
     padding: 2px !important;
-}
-
-.card-text {
-    padding: 30px 0px 30px 0px;
-    font-size: 1.875rem !important
 }
 
 .align-extreme-end {
@@ -126,10 +96,13 @@ i {
 /*Tag Section*/
 .bd-highlight {
     border: 2px dashed rgba(145, 145, 145, 0.15);
+    border-radius: 25px;
     color: #ffffff !important;
+    font-weight: 500;
     background: #1F2124;
     text-transform: uppercase;
-    font-size: 1vw;
+    font-size: 0.7vw;
+    
 }
 
 /*buttons*/
@@ -156,14 +129,33 @@ i {
     padding: 50px;
     margin: 50px;
 }
+/*Project*/
+.projects {
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow .3s;
+}
+
+.projects:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    /*Animate css*/
+    display: block;
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 20s;
+    /* don't forget to set a duration! */
+}
 
 /*Project-intor-images*/
 .project-intro-img {
     width: 100%;
-    
+
 }
+
 /*More than one project image should be in a row with a margin of two pixels*/
-.project-img-md{
+.project-img-md {
     width: 30% !important;
     margin-left: 5px !important;
 }
@@ -180,6 +172,14 @@ i {
 /*On hover, change the color of the project-site to Yellow Orange*/
 .project-site:hover {
     color: #FEB960 !important;
+}
+/*
+Give it a width of 100% so as you add other projects it will shrink to desired size.
+Remove the blue text and underline.
+*/
+.old-project {
+    width: 100%;
+    text-decoration: none;
 }
 
 /*Floating back button: the button id designed to stay untop of everything and in one place with alignment top of 30 and bottom of 70,*/
@@ -206,36 +206,30 @@ i {
     transition: max-width 0.5s;
 
 }
+
 /*back button that hovers and is in a permanent position on the left*/
 .back-btn:hover {
     max-width: 300px;
-     display: inline-flex;
+    display: inline-flex;
     align-items: center;
     overflow: hidden;
     width: auto;
-     -webkit-transition: max-width 2s;
+    -webkit-transition: max-width 2s;
     transition: max-width 2s;
 }
+
 /* change the display to a flex and align it to the center*/
 .material-symbols-outlined {
     display: flex;
     align-items: center;
 }
+
 /*Hide the whittespace*/
 .go-back {
     white-space: nowrap;
 }
-
-/*
-Give it a width of 100% so as you add other projects it will shrink to desired size.
-Remove the blue text and underline.
-*/
-.old-project {
-    width: 100%;
-    text-decoration: none;
-}
-
 /*Stop leaving white space when browser is adjusted*/
-.img-fluid{
-   max-width: 100%;
+.img-fluid {
+    max-width: 100%;
 }
+
