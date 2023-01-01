@@ -1,17 +1,20 @@
 /* CSS Document created by Abdulkadir Mohammed Tue 15 June 2021*/
 /*Google font import */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*animate.style import */
 import 'animate.css';
 
 /*Body*/
 body {
+    font-family: 'Roboto', 'Lato', 'Open Sans', 'Montserrat',  sans-serif;
     color: #D9D9D9 !important;
     font-size: 16;
     line-height: ;
     letter-spacing: 0.5;
+    font-style: normal;
+    
 }
-/* Remove padding and margin to make it fill the screen.
+/* Remove padding and margin to make it fill the screen.*/
 .container-fluid {
     padding: 0px !important;
     margin: 0px !important;
@@ -101,7 +104,8 @@ i {
     font-weight: 500;
     background: #1F2124;
     text-transform: uppercase;
-    font-size: 0.7vw;
+    font-size: 0.9vw;
+    height: 50% !important;
     
 }
 
@@ -116,18 +120,15 @@ i {
 
 /*Dividers are for making spaces inbetween divs*/
 .divider-small {
-    padding: 5px;
-    margin: 10px;
+    padding: 15px;
 }
 
 .divider-medium {
-    padding: 10px;
-    margin: 20px;
+    padding: 30px;
 }
 
 .divider-large {
     padding: 50px;
-    margin: 50px;
 }
 /*Project*/
 .projects {
@@ -232,4 +233,19 @@ Remove the blue text and underline.
 .img-fluid {
     max-width: 100%;
 }
-
+/*Thanks section*/
+.thanks-h{
+    font-size: 66px;
+    font-weight: 100;
+    letter-spacing: -1.61px;
+    line-height: 76px;
+    margin-top: 30px;
+    font-style: normal;
+}
+.thanks-p{
+    font-size: 33px;
+    font-weight: 100;
+    letter-spacing: -1.61px;
+    line-height: 36px;
+    font-style: normal;
+}

@@ -1,9 +1,9 @@
 # Abdulkadir Mohammed's UI UX & Front End Developer Portfolio
  
  What the site looks like:
-![Abdul's Portfolio.](images/ "Site screenshot")
+![Abdul's Portfolio.](Images/abdul/site-img-readme.png "Site screenshot")
 - - - 
-Link to the Live Site
+Link to the live site
 [abdul's portfolio]: https://www.abdul.today/ 
 
 ## Description
@@ -51,11 +51,11 @@ I checkd the image links both on the local and remote server.
 I checked the scroll bar carefully and to mak sure it all works as expected.
 
 #### Test 7: Errors.
-I checked to make sure it is an error free webpage, this includes UI and Console inspecttion.
+I checked to make sure it is an error free webpage, this includes responsiveness, spelling, closed brackets, UI and Console inspecttion.
 
-#### Test 7: Validating with W3 validator.
+#### Test 8: Validating with W3 validator.
 Corrected all errors that came up in W3 validator.
-Made sure it is validated and follows the W3C sttandard, check the error free site result image below.
+Made sure it is validated and follows the W3C standard.
 ![W3c Validator Results](images/ "image of W3c test result showing a clean valid site.")
 
 #### Test 8: Check loading speed using chrome dev tools.
