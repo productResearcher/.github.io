@@ -25,11 +25,15 @@ body {
 .heading {
     font-weight: 300;
     font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10xp;
 }
 
 .heading-p {
     font-weight: 100;
     color: gray;
+    padding-left: 10px;
+    padding-right: 10xp;
 }
 
 /* project */
@@ -80,7 +84,10 @@ i {
 }
 
 /*Card */
-
+.card{
+    background: #1F2124 !important;
+    padding-top: 20px;
+}
 .card-body {
     padding: 2px !important;
 }
@@ -105,7 +112,9 @@ i {
     background: #1F2124;
     text-transform: uppercase;
     font-size: 0.9vw;
-    height: 50% !important;
+   text-align: center;
+     white-space: nowrap;
+    padding: 1px;
     
 }
 
