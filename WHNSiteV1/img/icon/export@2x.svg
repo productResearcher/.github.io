@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="109.014" viewBox="0 0 84 109.014">
+  <defs>
+    <ellipse id="ellipse-1" cx="43.5" cy="55.501" rx="40.5" ry="40.501"/>
+    <mask id="mask-2" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-1"/>
+    </mask>
+    <path id="path-3" fill-rule="evenodd" d="M65.95544554 55.50097008c0 21.24669681-9.17692204 38.09531561-22.45544554 38.09531561-14.1209865 0-26.86633663-16.8486188-26.86633663-38.0953156 0-21.24669682 12.74535013-38.89732226 26.86633663-38.89732226 14.1918405 0 22.45544554 17.65062544 22.45544554 38.89732225z"/>
+    <mask id="mask-4" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-3"/>
+    </mask>
+    <path id="path-6" fill-rule="evenodd" d="M24.65346535 19.8116744s8.1549476-4.91115756 20.04950495-4.81203986c11.89455735.0991177 18.44554455 5.6140465 18.44554455 5.6140465S62.10846502 29.8904657 43.5 30.23776079c-18.60846502.3472951-18.84653465-10.42608638-18.84653465-10.42608638z"/>
+    <mask id="mask-7" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-6"/>
+    </mask>
+    <path id="path-8" fill-rule="evenodd" d="M22.24752475 87.17994973s8.1549476-6.51517086 20.04950495-6.41605316c11.89455736.0991177 18.44554456 5.61404651 18.44554456 5.61404651s-1.04004983 9.27678464-19.64851485 9.62407974c-18.60846503.34729509-18.84653466-8.8220731-18.84653466-8.8220731z"/>
+    <mask id="mask-9" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-8"/>
+    </mask>
+    <path id="path-10" fill-rule="evenodd" d="M47.70680563 0h36v35l-18-17.5-18-17.5z"/>
+    <mask id="mask-11" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-10"/>
+    </mask>
+    <rect id="rect-12" width="63.728" height="16.503" x="11.502" y="29.115"/>
+    <mask id="mask-13" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-12"/>
+    </mask>
+    <path id="path-14" fill-rule="evenodd" d="M34.35865974 41.60383586h36v35l-18-17.5-18-17.5z"/>
+    <mask id="mask-15" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#path-14"/>
+    </mask>
+    <rect id="rect-16" width="65.247" height="16.503" x="-3.143" y="71.256"/>
+    <mask id="mask-17" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="84" height="109.014" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-16"/>
+    </mask>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#ellipse-1"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="10" mask="url(#mask-2)" xlink:href="#ellipse-1"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#path-3"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="10" mask="url(#mask-4)" xlink:href="#path-3"/>
+      </g>
+      <rect width="81" height="4.01" x="3" y="53.496" fill="rgb(0,0,0)"/>
+      <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="10" mask="url(#mask-7)" xlink:href="#path-6"/>
+      <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="10" mask="url(#mask-9)" transform="matrix(1 0 0 -1 0 176.77442197)" xlink:href="#path-8"/>
+    </g>
+    <g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#path-10"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-11)" xlink:href="#path-10"/>
+      </g>
+      <g transform="rotate(-44.999887 43.36574167 37.36592659)">
+        <use fill="rgb(0,0,0)" xlink:href="#rect-12"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-13)" xlink:href="#rect-12"/>
+      </g>
+    </g>
+    <g transform="rotate(-178.999935 35.4681537 75.00677323)">
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#path-14"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-15)" xlink:href="#path-14"/>
+      </g>
+      <g transform="rotate(-44.999887 29.48049255 79.50686568)">
+        <use fill="rgb(255,255,255)" xlink:href="#rect-16"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-17)" xlink:href="#rect-16"/>
+      </g>
+    </g>
+  </g>
+</svg>

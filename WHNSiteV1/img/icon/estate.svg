@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="139" viewBox="0 0 101 139">
+  <defs>
+    <ellipse id="ellipse-1" cx="74" cy="39" rx="11" ry="11"/>
+    <mask id="mask-2" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-1"/>
+    </mask>
+    <ellipse id="ellipse-3" cx="52" cy="39" rx="11" ry="11"/>
+    <mask id="mask-4" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-3"/>
+    </mask>
+    <ellipse id="ellipse-5" cx="30" cy="39" rx="11" ry="11"/>
+    <mask id="mask-6" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-5"/>
+    </mask>
+    <ellipse id="ellipse-7" cx="84" cy="55" rx="11" ry="11"/>
+    <mask id="mask-8" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-7"/>
+    </mask>
+    <ellipse id="ellipse-9" cx="62" cy="55" rx="11" ry="11"/>
+    <mask id="mask-10" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-9"/>
+    </mask>
+    <ellipse id="ellipse-11" cx="40" cy="55" rx="11" ry="11"/>
+    <mask id="mask-12" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-11"/>
+    </mask>
+    <ellipse id="ellipse-13" cx="20" cy="55" rx="11" ry="11"/>
+    <mask id="mask-14" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-13"/>
+    </mask>
+    <ellipse id="ellipse-15" cx="38" cy="28" rx="11" ry="11"/>
+    <mask id="mask-16" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-15"/>
+    </mask>
+    <ellipse id="ellipse-17" cx="48" cy="11" rx="11" ry="11"/>
+    <mask id="mask-18" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-17"/>
+    </mask>
+    <ellipse id="ellipse-19" cx="59" cy="28" rx="11" ry="11"/>
+    <mask id="mask-20" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#ellipse-19"/>
+    </mask>
+    <rect id="rect-21" width="52" height="73" x="0" y="66"/>
+    <mask id="mask-22" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-21"/>
+    </mask>
+    <rect id="rect-23" width="52" height="24" x="0" y="89"/>
+    <mask id="mask-24" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-23"/>
+    </mask>
+    <rect id="rect-25" width="12" height="12" x="8" y="72"/>
+    <mask id="mask-26" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-25"/>
+    </mask>
+    <rect id="rect-27" width="12" height="12" x="29" y="72"/>
+    <mask id="mask-28" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-27"/>
+    </mask>
+    <rect id="rect-29" width="12" height="12" x="8" y="95"/>
+    <mask id="mask-30" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-29"/>
+    </mask>
+    <rect id="rect-31" width="12" height="12" x="29" y="95"/>
+    <mask id="mask-32" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-31"/>
+    </mask>
+    <rect id="rect-33" width="12" height="12" x="8" y="119"/>
+    <mask id="mask-34" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-33"/>
+    </mask>
+    <rect id="rect-35" width="12" height="12" x="29" y="119"/>
+    <mask id="mask-36" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-35"/>
+    </mask>
+    <rect id="rect-37" width="26" height="24" x="26" y="44"/>
+    <mask id="mask-38" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-37"/>
+    </mask>
+    <rect id="rect-39" width="12" height="12" x="33" y="50"/>
+    <mask id="mask-40" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-39"/>
+    </mask>
+    <rect id="rect-41" width="52" height="73" x="49" y="66"/>
+    <mask id="mask-42" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-41"/>
+    </mask>
+    <rect id="rect-43" width="52" height="24" x="49" y="89"/>
+    <mask id="mask-44" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-43"/>
+    </mask>
+    <rect id="rect-45" width="26" height="24" x="50" y="44"/>
+    <mask id="mask-46" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-45"/>
+    </mask>
+    <rect id="rect-47" width="12" height="12" x="59" y="72"/>
+    <mask id="mask-48" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-47"/>
+    </mask>
+    <rect id="rect-49" width="12" height="12" x="57" y="51"/>
+    <mask id="mask-50" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-49"/>
+    </mask>
+    <rect id="rect-51" width="12" height="12" x="80" y="72"/>
+    <mask id="mask-52" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-51"/>
+    </mask>
+    <rect id="rect-53" width="12" height="12" x="59" y="95"/>
+    <mask id="mask-54" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-53"/>
+    </mask>
+    <rect id="rect-55" width="12" height="12" x="80" y="95"/>
+    <mask id="mask-56" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-55"/>
+    </mask>
+    <rect id="rect-57" width="12" height="12" x="59" y="119"/>
+    <mask id="mask-58" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-57"/>
+    </mask>
+    <rect id="rect-59" width="12" height="12" x="80" y="119"/>
+    <mask id="mask-60" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="101" height="139" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-59"/>
+    </mask>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-1"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-2)" xlink:href="#ellipse-1"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="70" y="43" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-3"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-4)" xlink:href="#ellipse-3"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="48" y="43" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-5"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-6)" xlink:href="#ellipse-5"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="26" y="43" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-7"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-8)" xlink:href="#ellipse-7"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="80" y="59" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-9"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-10)" xlink:href="#ellipse-9"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="58" y="59" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-11"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-12)" xlink:href="#ellipse-11"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="36" y="59" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-13"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-14)" xlink:href="#ellipse-13"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="16" y="59" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-15"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-16)" xlink:href="#ellipse-15"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="34" y="32" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-17"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-18)" xlink:href="#ellipse-17"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="44" y="15" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+      <g>
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#ellipse-19"/>
+          <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-20)" xlink:href="#ellipse-19"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="55" y="32" fill="rgb(51,51,51)" font-family="Font Awesome 5 Free" font-size="12" font-weight="900" style="white-space:pre;text-transform:none" letter-spacing="1.555"></tspan>
+        </text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-21"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-22)" xlink:href="#rect-21"/>
+      </g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-23"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-24)" xlink:href="#rect-23"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-25"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-26)" xlink:href="#rect-25"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-27"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-28)" xlink:href="#rect-27"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-29"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-30)" xlink:href="#rect-29"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-31"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-32)" xlink:href="#rect-31"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-33"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-34)" xlink:href="#rect-33"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-35"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-36)" xlink:href="#rect-35"/>
+      </g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-37"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-38)" xlink:href="#rect-37"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-39"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-40)" xlink:href="#rect-39"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-41"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-42)" xlink:href="#rect-41"/>
+      </g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-43"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-44)" xlink:href="#rect-43"/>
+      </g>
+      <g>
+        <use fill="rgb(0,0,0)" xlink:href="#rect-45"/>
+        <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-46)" xlink:href="#rect-45"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-47"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-48)" xlink:href="#rect-47"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-49"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-50)" xlink:href="#rect-49"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-51"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-52)" xlink:href="#rect-51"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-53"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-54)" xlink:href="#rect-53"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-55"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-56)" xlink:href="#rect-55"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-57"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-58)" xlink:href="#rect-57"/>
+      </g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#rect-59"/>
+        <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="6" mask="url(#mask-60)" xlink:href="#rect-59"/>
+      </g>
+    </g>
+  </g>
+</svg>
