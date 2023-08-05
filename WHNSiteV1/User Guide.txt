@@ -5,3 +5,19 @@ Website build version is: 1.0
 Built by Inject: www.injectgroup.com
 
 Start date: 23 Aug 2021
+------------------------
+HOW TO ADD A 3D GLOBE ON YOUR SITE
+LINKS: 
+JAMES https://isotropic.co/3d-globe-on-website/
+
+STRIPE https://stripe.com/blog/globe
+
+GITHUB GLOBE CODE : https://github.com/janarosmonaliev/github-globe
+
+THREE GLOBE KIT: https://github.com/vasturiano/three-globe
+
+PAID ENVATO MARKET 3D EARTTH: https://codecanyon.net/item/miniature-earth-interactive-3d-globe-for-javascript/23390670?irgwc=1&clickid=wV0Vo7wj3xyNULlVgCUkU0pcUkF0Jq39h3F8UU0&iradid=275988&irpid=2303751&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_2303751&utm_medium=affiliate&utm_source=impact_radius
+
+
+
+
