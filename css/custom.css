@@ -116,6 +116,11 @@ i {
     padding: 1px;
     
 }
+/* SPAN FOR GOOGLE FONTS AND ICONS */
+span.size-48 {
+  font-size: 48px;
+  font-variation-settings: 'OPSZ' 48;
+}
 
 /*buttons*/
 .btn-warning {
