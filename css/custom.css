@@ -145,6 +145,17 @@ span.size-48 {
 .divider-large {
     padding: 50px;
 }
+/* Slower, smoother mobile navbar open/close */
+.navbar-collapse.collapsing {
+    transition-duration: 0.65s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Smooth nav link hover highlight */
+.nav-a {
+    transition: background-color 0.45s ease, color 0.45s ease, letter-spacing 0.45s ease;
+}
+
 /*Project*/
 .projects {
     text-decoration: none;
