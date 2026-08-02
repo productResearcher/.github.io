@@ -30,8 +30,8 @@
       title: "Green Wallet",
       section: "uiux-featured",
       href: "#",
-      date: "JUNE-SEP 2022",
-      tags: ["UI UX", "Mobile & desktop", "IOS Android & Web"]
+      date: "JUNE–SEP 2022",
+      tags: ["UI UX", "Mobile & desktop", "iOS, Android & Web"]
     },
     {
       id: "equinine",

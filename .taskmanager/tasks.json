@@ -215,7 +215,21 @@
       "acceptanceCriteria": "Theme tokens exist in custom.css for core colors/spacing used by shared sections\nVisual design of listed sections remains the same",
       "createdAt": "2026-08-02T18:21:51.809Z",
       "updatedAt": "2026-08-02T18:24:00.000Z"
+    },
+    {
+      "id": "task-1785695880049",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Green Wallet: fix grammar, writing style, and UX process narrative",
+      "description": "Rewrite dont-show-nin.html (Green Wallet case study) and the index.html card blurb for clear grammar, professional portfolio voice, and a correct UX process sequence.",
+      "details": "Rewrote dont-show-nin.html: grammar/style polish; UX order now Problem → Brief & role → Research → Design thinking → Strategy → Personas → Requirements → Prioritisation → Test planning → IA → Decision path → Flows → Sketches → Wireframes → Design decisions → Outcome. Updated index.html card blurb, site-projects tags, project-template header tags. Fixed empty methods section, typos, broken tags, alt text.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Grammar and spelling cleaned across Green Wallet case study\nUX sections follow a coherent process order\nEmpty UX inputs section filled or removed\nIndex card blurb polished\nHTML tags valid for edited sections",
+      "createdAt": "2026-08-02T18:38:00.049Z",
+      "updatedAt": "2026-08-02T18:40:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T18:33:43.709Z"
+  "lastSync": "2026-08-02T18:40:11.965Z"
 }
