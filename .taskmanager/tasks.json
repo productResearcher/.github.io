@@ -91,7 +91,20 @@
       "status": "done",
       "createdAt": "2026-08-02T17:36:19.000Z",
       "updatedAt": "2026-08-02T17:36:19.000Z"
+    },
+    {
+      "id": "task-1785692512296",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Make About quote signature white via CSS filter",
+      "description": "Apply brightness(0) invert(1) so the signature reads white on the dark About page.",
+      "details": "",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "createdAt": "2026-08-02T17:41:52.000Z",
+      "updatedAt": "2026-08-02T17:41:52.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:40:32.283Z"
+  "lastSync": "2026-08-02T17:42:02.615Z"
 }

@@ -850,6 +850,8 @@ Remove the blue text and underline.
     height: auto;
     margin-left: auto;
     margin-right: 0;
+    /* Force signature strokes to white on the dark page */
+    filter: brightness(0) invert(1);
 }
 
 .about-title {
