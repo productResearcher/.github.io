@@ -343,7 +343,7 @@ Remove the blue text and underline.
     background: #ffffff;
     color: #1a1a1a;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     padding: 4.5rem 1.5rem;
     box-sizing: border-box;
 }
@@ -422,7 +422,7 @@ Remove the blue text and underline.
 }
 
 .site-certs {
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 .site-closing-title {
@@ -481,7 +481,7 @@ Remove the blue text and underline.
 
 .site-footer {
     margin-top: 0;
-    padding-top: 2.5rem;
+    padding-top: 5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 

@@ -64,7 +64,21 @@
       "acceptanceCriteria": "All main portfolio pages use the same thanks band + certifications + skills/tools + social footer from footer.html\nNo duplicate old Thanks markup remains on those pages\nFooter load path and cache-bust are consistent",
       "createdAt": "2026-08-02T16:44:00.000Z",
       "updatedAt": "2026-08-02T16:46:00.000Z"
+    },
+    {
+      "id": "task-1785689241494",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Double spacing between closing footer sections",
+      "description": "Doubled vertical gaps between Thanks, Certifications, and Skills/Tools in css/custom.css.",
+      "details": "thanks margin-bottom 3rem→6rem; certs margin-bottom 3rem→6rem; site-footer padding-top 2.5rem→5rem.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Gap between Thanks and Certifications is roughly 2x previous\nGap between Certifications and Skills/Tools is roughly 2x previous",
+      "createdAt": "2026-08-02T16:47:00.000Z",
+      "updatedAt": "2026-08-02T16:48:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T16:45:52.369Z"
+  "lastSync": "2026-08-02T16:47:38.418Z"
 }
