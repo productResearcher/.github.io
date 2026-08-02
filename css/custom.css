@@ -832,12 +832,24 @@ Remove the blue text and underline.
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+.about-quote-text {
+    margin: 0 0 0.65rem;
     font-family: 'Lato', 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.05rem;
     line-height: 1.75;
     letter-spacing: normal;
     color: #FEB960;
+}
+
+.about-quote-signature {
+    display: block;
+    width: min(100%, 11.5rem);
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .about-title {
