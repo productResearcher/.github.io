@@ -1,0 +1,49 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/.git/**",
+      "**/.taskmanager/**",
+      "**/docs/**",
+      "**/.DS_Store",
+      "**/Agent",
+      "**/Site Dev Notes.txt",
+      "**/WHNSiteV1/**",
+      "**/maestheticdoctors/**/_notes/**"
+    ],
+    "cleanUrls": false,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          { "key": "X-Content-Type-Options", "value": "nosniff" },
+          { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+          { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+          { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" }
+        ]
+      },
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public,max-age=604800" }
+        ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|ico|woff2)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public,max-age=2592000" }
+        ]
+      },
+      {
+        "source": "**/*.@(html|xml|txt|webmanifest)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public,max-age=300" }
+        ]
+      }
+    ]
+  }
+}

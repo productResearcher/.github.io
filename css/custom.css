@@ -1379,3 +1379,109 @@ Remove the blue text and underline.
     color: #f0f0f0;
     margin: 1rem 0 0.35rem;
 }
+
+/* Cookie consent + legal */
+.cookie-consent {
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 1080;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.15rem 1.25rem;
+    background: #1a1d21;
+    border: 1px solid rgba(254, 185, 96, 0.35);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.cookie-consent[hidden] {
+    display: none !important;
+}
+
+.cookie-consent-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.45rem;
+    color: #f5f5f5;
+}
+
+.cookie-consent-text {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: #cfcfcf;
+    margin: 0;
+}
+
+.cookie-consent-text a {
+    color: #feb960;
+}
+
+.cookie-consent-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 0.95rem;
+}
+
+.footer-legal {
+    text-align: center;
+    margin: 0.65rem 0 0.25rem;
+    font-size: 0.85rem;
+}
+
+.footer-legal a {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+
+.footer-legal a:hover,
+.footer-legal a:focus {
+    color: #feb960;
+    text-decoration: underline;
+}
+
+.legal-page {
+    max-width: 46rem;
+    padding: 1.75rem 1rem 3rem;
+}
+
+.legal-title {
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.legal-updated {
+    color: #9a9a9a;
+    font-size: 0.9rem;
+    margin-bottom: 1.75rem;
+}
+
+.legal-section {
+    margin-bottom: 1.6rem;
+}
+
+.legal-section h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.55rem;
+}
+
+.legal-section p,
+.legal-section li {
+    color: #cfcfcf;
+    line-height: 1.65;
+}
+
+.legal-section a {
+    color: #feb960;
+}
+
+.legal-section ul {
+    padding-left: 1.15rem;
+}
+
+.legal-section li {
+    margin-bottom: 0.35rem;
+}

@@ -383,7 +383,21 @@
       "acceptanceCriteria": "Nav menu label reads Me instead of About Me\nLink target unchanged",
       "createdAt": "2026-08-02T19:38:56.765Z",
       "updatedAt": "2026-08-02T19:39:30.000Z"
+    },
+    {
+      "id": "task-1785701294684",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Firebase Hosting production + cookie consent + GA",
+      "description": "Set up Firebase Hosting for abdulkadirmohammed, production deploy config, GA + monitoring behind cookie consent, Terms/Privacy pages.",
+      "details": "Firebase Hosting production deployed to abdulkadirmohammed (https://abdulkadirmohammed.web.app). Consent-gated GA (G-NSPSQ90SQV + G-BSB6EF0HSM), Firebase Analytics + Performance, Tawk after Accept. Added privacy.html, terms.html, cookie banner, footer legal links. Auto-gtag removed until consent.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Firebase Hosting config deploys static site to project abdulkadirmohammed\nGA loads only after cookie consent\nCookie banner with Accept/Reject and link to privacy/terms\nPrivacy Policy and Terms of Use pages exist\nSitemap/robots remain valid for SEO\nProduction-ready headers and caching where appropriate",
+      "createdAt": "2026-08-02T20:08:14.684Z",
+      "updatedAt": "2026-08-02T20:14:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:39:20.861Z"
+  "lastSync": "2026-08-02T20:13:27.890Z"
 }
