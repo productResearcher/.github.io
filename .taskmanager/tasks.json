@@ -299,7 +299,49 @@
       "acceptanceCriteria": "Problem states user and business pain before product\nKey findings section after research\nBusiness and customer use cases appear before IA/UI\nValidation (or scope limit) is explicit\nJunior researcher and personas are not orphan details",
       "createdAt": "2026-08-02T19:08:59.046Z",
       "updatedAt": "2026-08-02T19:12:00.000Z"
+    },
+    {
+      "id": "task-1785697971611",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Research South Yorkshire local SEO keywords (UX + Dev)",
+      "description": "Compile human search phrases and machine/schema keywords for UI/UX Product Designer and Software Developer targeting Doncaster, Sheffield, and South Yorkshire.",
+      "details": "Human keywords researched and embedded:\nUX: UI UX designer Doncaster, UX designer Sheffield, product designer South Yorkshire, UI designer Sheffield, product designer Doncaster, freelance UX designer South Yorkshire, user experience designer Doncaster, UX consultant Sheffield, design sprint South Yorkshire.\nDev: software developer Doncaster/Sheffield, Flutter developer South Yorkshire, software engineer Sheffield, mobile app developer Doncaster, web developer South Yorkshire, freelance software developer Doncaster, full stack developer Sheffield.\nMachine: schema.org Person + ProfessionalService + WebSite/WebPage + BreadcrumbList; geo.region GB-SYK; geo.placename; GeoCoordinates Doncaster; meta keywords; OG/Twitter; canonical; robots.txt; sitemap.xml.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Keyword list documented in task developer notes\nCovers both designer and developer intents\nIncludes location variants (Doncaster, Sheffield, South Yorkshire)",
+      "createdAt": "2026-08-02T19:12:51.611Z",
+      "updatedAt": "2026-08-02T19:18:00.000Z"
+    },
+    {
+      "id": "task-1785697972850",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Add machine SEO: meta, OG, JSON-LD, robots, sitemap",
+      "description": "Implement title/description/geo/Open Graph/Twitter cards and Person/ProfessionalService JSON-LD on key pages; add robots.txt and sitemap.xml for www.abdul.today.",
+      "details": "Added meta/OG/Twitter/geo/canonical + JSON-LD on index, about, dev, and two local landing pages. Created robots.txt and sitemap.xml for https://www.abdul.today. Updated site.webmanifest name/description.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "index, about, and dev pages have unique meta + JSON-LD\nrobots.txt and sitemap.xml exist and reference canonical URLs\nCanonical and OG tags use https://www.abdul.today",
+      "createdAt": "2026-08-02T19:12:52.850Z",
+      "updatedAt": "2026-08-02T19:18:00.000Z"
+    },
+    {
+      "id": "task-1785697973499",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Add human SEO: local copy + landing pages",
+      "description": "Add natural location-aware copy on portfolio pages and create dedicated local landing pages for UI/UX Product Designer and Software Developer in Doncaster/Sheffield/South Yorkshire.",
+      "details": "Added H1 + location copy on index and dev; about location line; footer geo + landing links; local bands; created ui-ux-product-designer-south-yorkshire.html and software-developer-south-yorkshire.html with natural keyword sections and CTAs.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Visible location copy on index and dev without keyword stuffing\nLanding pages for designer and developer local intents\nFooter or about signals South Yorkshire base",
+      "createdAt": "2026-08-02T19:12:53.499Z",
+      "updatedAt": "2026-08-02T19:18:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:10:07.535Z"
+  "lastSync": "2026-08-02T19:16:54.504Z"
 }

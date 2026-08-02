@@ -1183,3 +1183,173 @@ Remove the blue text and underline.
         margin-left: 0;
     }
 }
+
+/* Local organic search — human-facing location signals */
+.seo-page-title {
+    font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.25;
+    margin: 0.75rem 0 0.5rem;
+    color: #f5f5f5;
+}
+
+.seo-local-links {
+    font-size: 0.92rem;
+    color: #bdbdbd;
+    margin-top: 0.35rem;
+}
+
+.seo-local-links a {
+    color: #feb960;
+    text-decoration: none;
+}
+
+.seo-local-links a:hover,
+.seo-local-links a:focus {
+    color: #ffd08a;
+    text-decoration: underline;
+}
+
+.seo-local-band {
+    margin: 3rem auto 1rem;
+    padding: 1.75rem 0 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.seo-local-band-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #f5f5f5;
+}
+
+.seo-local-band-copy {
+    color: #cfcfcf;
+    max-width: 46rem;
+    line-height: 1.6;
+    margin-bottom: 0.85rem;
+}
+
+.seo-local-band-list {
+    padding-left: 1.15rem;
+    color: #bdbdbd;
+    max-width: 40rem;
+}
+
+.seo-local-band-list li {
+    margin-bottom: 0.35rem;
+}
+
+.about-location-line {
+    color: #feb960;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 1rem;
+}
+
+.footer-location {
+    color: #9a9a9a;
+    font-size: 0.85rem;
+    margin: 0.75rem 0 0.35rem;
+    text-align: center;
+}
+
+.footer-location a {
+    color: #cfcfcf;
+    text-decoration: none;
+}
+
+.footer-location a:hover,
+.footer-location a:focus {
+    color: #feb960;
+    text-decoration: underline;
+}
+
+.seo-landing {
+    max-width: 46rem;
+    padding: 1.5rem 1rem 3rem;
+}
+
+.seo-breadcrumb {
+    font-size: 0.85rem;
+    color: #9a9a9a;
+    margin-bottom: 1.25rem;
+}
+
+.seo-breadcrumb a {
+    color: #feb960;
+    text-decoration: none;
+}
+
+.seo-eyebrow {
+    color: #feb960;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78rem;
+    margin-bottom: 0.65rem;
+}
+
+.seo-landing-title {
+    font-size: clamp(1.6rem, 3.2vw, 2.35rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.seo-landing-lede {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: #d6d6d6;
+    margin-bottom: 1.35rem;
+}
+
+.seo-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-bottom: 2.5rem;
+}
+
+.seo-landing-section {
+    margin-bottom: 2rem;
+}
+
+.seo-landing-section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.65rem;
+}
+
+.seo-landing-section p,
+.seo-service-list,
+.seo-work-list {
+    color: #cfcfcf;
+    line-height: 1.65;
+}
+
+.seo-service-list,
+.seo-work-list {
+    padding-left: 1.15rem;
+}
+
+.seo-service-list li,
+.seo-work-list li {
+    margin-bottom: 0.45rem;
+}
+
+.seo-work-list a {
+    color: #feb960;
+    text-decoration: none;
+}
+
+.seo-work-list a:hover,
+.seo-work-list a:focus {
+    text-decoration: underline;
+}
+
+.seo-keyword-cloud {
+    font-size: 0.92rem;
+    color: #a8a8a8;
+    line-height: 1.7;
+}

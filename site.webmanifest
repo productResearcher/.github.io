@@ -1,6 +1,8 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Abdulkadir Mohammed — UI UX Product Designer & Software Developer | South Yorkshire",
+    "short_name": "Abdul Portfolio",
+    "description": "UI UX and product design plus software development for Doncaster, Sheffield, and South Yorkshire.",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +15,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "theme_color": "#212529",
+    "background_color": "#212529",
+    "display": "standalone",
+    "lang": "en-GB"
 }
