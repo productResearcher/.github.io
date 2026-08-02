@@ -38,7 +38,7 @@
       title: "N9",
       section: "uiux-featured",
       href: "equinine.html",
-      date: "FEB-2020",
+      date: "FEB 2020",
       tags: ["Design Sprint", "Leadership", "Project Management"]
     },
     {

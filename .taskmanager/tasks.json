@@ -229,7 +229,21 @@
       "acceptanceCriteria": "Grammar and spelling cleaned across Green Wallet case study\nUX sections follow a coherent process order\nEmpty UX inputs section filled or removed\nIndex card blurb polished\nHTML tags valid for edited sections",
       "createdAt": "2026-08-02T18:38:00.049Z",
       "updatedAt": "2026-08-02T18:40:00.000Z"
+    },
+    {
+      "id": "task-1785696090940",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "N9: fix grammar, writing style, and UX process narrative",
+      "description": "Rewrite equinine.html (N9 case study) and the index.html card blurb for clear grammar, professional portfolio voice, and a correct design-sprint / UX process sequence.",
+      "details": "Rewrote equinine.html: grammar/style polish; clarified design-sprint sequence (problem → planning → pre-sprint → Days 1–5 → deliverables); fixed broken HTML/alts; polished index card blurb and site-projects date.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Grammar and spelling cleaned across N9 case study\nSprint/UX sections follow a coherent process order\nIndex card blurb polished\nAlt text and tags cleaned",
+      "createdAt": "2026-08-02T18:41:30.940Z",
+      "updatedAt": "2026-08-02T18:45:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T18:40:11.965Z"
+  "lastSync": "2026-08-02T18:42:45.718Z"
 }
