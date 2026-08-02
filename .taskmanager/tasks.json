@@ -285,7 +285,21 @@
       "acceptanceCriteria": "Grammar and spelling cleaned across Zi Pay case study\nUX sections follow a coherent process order\nIndex card blurb polished\nNo invented process steps claimed as completed",
       "createdAt": "2026-08-02T19:04:50.606Z",
       "updatedAt": "2026-08-02T19:08:00.000Z"
+    },
+    {
+      "id": "task-1785697739046",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Zi Pay: strengthen UX process gaps (problem, insights, use cases, validation)",
+      "description": "Adjust zipay.html: pain-led problem, key findings, move use cases before IA/UI, persona/junior researcher continuity, validation note.",
+      "details": "Pain-led problem; junior researcher continuity; key findings; personas as outcome; use cases before features/IA/UI; validation section; end result updated.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Problem states user and business pain before product\nKey findings section after research\nBusiness and customer use cases appear before IA/UI\nValidation (or scope limit) is explicit\nJunior researcher and personas are not orphan details",
+      "createdAt": "2026-08-02T19:08:59.046Z",
+      "updatedAt": "2026-08-02T19:12:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:05:51.457Z"
+  "lastSync": "2026-08-02T19:10:07.535Z"
 }
