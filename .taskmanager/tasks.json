@@ -173,7 +173,21 @@
       "acceptanceCriteria": "Collapsed back button shows arrow + Go without trailing b",
       "createdAt": "2026-08-02T17:59:21.202Z",
       "updatedAt": "2026-08-02T17:59:30.000Z"
+    },
+    {
+      "id": "task-1785693709962",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Update footer Dev Skills and Tools lists",
+      "description": "Update footer Dev Skills and Tools: remove Bootstrap and October CMS; remove Invision and add Cursor; rename Google Apps to Google tech stack.",
+      "details": "Edited footer.html; cache-bust footer include to v=6 across pages.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Dev Skills no longer lists Bootstrap or October CMS\nTools lists Cursor instead of Invision\nGoogle Apps label is Google tech stack",
+      "createdAt": "2026-08-02T18:01:49.962Z",
+      "updatedAt": "2026-08-02T18:02:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:59:43.805Z"
+  "lastSync": "2026-08-02T18:02:08.510Z"
 }
