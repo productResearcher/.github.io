@@ -104,7 +104,20 @@
       "status": "done",
       "createdAt": "2026-08-02T17:41:52.000Z",
       "updatedAt": "2026-08-02T17:41:52.000Z"
+    },
+    {
+      "id": "task-1785692678397",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Enlarge About quote signature",
+      "description": "Increase signature max-width from 11.5rem to 18rem and left-align under the quote.",
+      "details": "",
+      "operationalPhase": "COMPLETE",
+      "priority": "low",
+      "status": "done",
+      "createdAt": "2026-08-02T17:44:38.000Z",
+      "updatedAt": "2026-08-02T17:44:38.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:42:02.615Z"
+  "lastSync": "2026-08-02T17:44:49.645Z"
 }

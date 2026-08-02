@@ -846,10 +846,11 @@ Remove the blue text and underline.
 
 .about-quote-signature {
     display: block;
-    width: min(100%, 11.5rem);
+    width: min(100%, 18rem);
     height: auto;
-    margin-left: auto;
-    margin-right: 0;
+    margin-top: 0.35rem;
+    margin-left: 0;
+    margin-right: auto;
     /* Force signature strokes to white on the dark page */
     filter: brightness(0) invert(1);
 }
