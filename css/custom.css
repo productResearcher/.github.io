@@ -502,14 +502,13 @@ Remove the blue text and underline.
     /* Safari */
     position: sticky;
     top: 500;
-    /*Hide the "go back" text*/
+    /*Collapsed: show arrow + "Go"; hover expands to full "Go back"*/
     height: 40px;
-    /*Show the "go back" button on hover*/
     display: inline-flex;
     align-items: center;
     overflow: hidden;
     width: auto;
-    max-width: 50px;
+    max-width: 85px;
     /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
     -webkit-transition: max-width 0.5s;
     transition: max-width 0.5s;

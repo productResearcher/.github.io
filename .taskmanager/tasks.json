@@ -131,7 +131,21 @@
       "acceptanceCriteria": "2016 year has no Present suffix\nNew 2026 – Present CEO @ Inject chapter with R&D company description",
       "createdAt": "2026-08-02T17:49:11.270Z",
       "updatedAt": "2026-08-02T17:49:30.000Z"
+    },
+    {
+      "id": "task-1785693366419",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Widen collapsed project back button to show Go",
+      "description": "Default .back-btn max-width was 50px so only the arrow and letter G were visible. Increase collapsed max-width so visitors see Go; hover still expands to full Go back.",
+      "details": "Increased .back-btn collapsed max-width from 50px to 85px so arrow + Go are visible; hover still expands to Go back. Cache-bust custom.css to v=16 on equinine, zipay, brands, dont-show-nin, project-template.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Collapsed back button shows arrow + Go\nHover expands to full Go back text",
+      "createdAt": "2026-08-02T17:56:06.419Z",
+      "updatedAt": "2026-08-02T17:56:30.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:49:57.178Z"
+  "lastSync": "2026-08-02T17:56:42.614Z"
 }
