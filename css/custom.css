@@ -145,6 +145,33 @@ span.size-48 {
 .divider-large {
     padding: 50px;
 }
+/* Keep brand → links → counter → hamburger (hamburger always last) */
+#header .navbar > .navbar-brand {
+    order: 1;
+}
+#header .navbar > .navbar-collapse {
+    order: 2;
+}
+#header .navbar > .navbar-project-counter {
+    order: 3;
+}
+#header .navbar > .navbar-toggler {
+    order: 4;
+}
+
+@media (max-width: 991.98px) {
+    #header .navbar > .navbar-project-counter {
+        order: 2;
+        margin-left: auto;
+    }
+    #header .navbar > .navbar-toggler {
+        order: 3;
+    }
+    #header .navbar > .navbar-collapse {
+        order: 4;
+    }
+}
+
 /* Slower, smoother mobile navbar open/close (override Bootstrap 0.35s) */
 .navbar-collapse.collapsing,
 .collapsing {
