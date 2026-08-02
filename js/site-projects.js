@@ -46,8 +46,8 @@
       title: "Zi Pay",
       section: "uiux-featured",
       href: "zipay.html",
-      date: "NOV-2019",
-      tags: ["UI UX", "Leanstack", "IOS"]
+      date: "NOV 2019",
+      tags: ["UI UX", "Lean Stack", "iOS"]
     },
 
     // UI UX — Other Projects (index.html)

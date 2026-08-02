@@ -271,7 +271,21 @@
       "acceptanceCriteria": "Day 5 includes setup, what was tested, findings, and next step\nFindings align with form-factor, race monitoring, and companion app already described",
       "createdAt": "2026-08-02T19:02:10.046Z",
       "updatedAt": "2026-08-02T19:03:00.000Z"
+    },
+    {
+      "id": "task-1785697490606",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Zi Pay: fix grammar, writing style, and UX process narrative",
+      "description": "Rewrite zipay.html and the index.html Zi Pay card for clear grammar, professional portfolio voice, and a coherent UX / Leanstack process sequence.",
+      "details": "Rewrote zipay.html: grammar/style; process order Problem → Planning → Lean model → Research → Decision path → Features/iOS → IA → UI → Business/Customer cases → End result. Fixed duplicate Lean heading, empty para, overlapping end-result copy. Updated index card + site-projects.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Grammar and spelling cleaned across Zi Pay case study\nUX sections follow a coherent process order\nIndex card blurb polished\nNo invented process steps claimed as completed",
+      "createdAt": "2026-08-02T19:04:50.606Z",
+      "updatedAt": "2026-08-02T19:08:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:02:42.181Z"
+  "lastSync": "2026-08-02T19:05:51.457Z"
 }
