@@ -243,7 +243,21 @@
       "acceptanceCriteria": "Grammar and spelling cleaned across N9 case study\nSprint/UX sections follow a coherent process order\nIndex card blurb polished\nAlt text and tags cleaned",
       "createdAt": "2026-08-02T18:41:30.940Z",
       "updatedAt": "2026-08-02T18:45:00.000Z"
+    },
+    {
+      "id": "task-1785696417755",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "N9: restructure case study to GV Map→Sketch→Decide→Prototype→Test",
+      "description": "Restructure equinine.html narrative so activities sit under the correct design-sprint days without inventing work that was not done.",
+      "details": "Restructured equinine.html to Map→Sketch→Decide→Prototype→Test. Moved critique/decide/storyboard to Day 3; reframed Tuesday storyboards as solution sketches; honesty notes on adapted Lightning Demos and remote Friday tests. Updated index blurb.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Case study reads as Map → Sketch → Decide → Prototype → Test\nNo invented GV rituals claimed as completed\nExisting activities preserved under clearer day framing\nIndex card remains accurate",
+      "createdAt": "2026-08-02T18:46:57.755Z",
+      "updatedAt": "2026-08-02T18:50:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T18:42:45.718Z"
+  "lastSync": "2026-08-02T18:48:15.151Z"
 }
