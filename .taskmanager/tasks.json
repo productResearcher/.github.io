@@ -117,7 +117,21 @@
       "status": "done",
       "createdAt": "2026-08-02T17:44:38.000Z",
       "updatedAt": "2026-08-02T17:44:38.000Z"
+    },
+    {
+      "id": "task-1785692951270",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Update about timeline: 2016 + CEO @ Inject 2026",
+      "description": "Change 2016–Present to 2016 and add 2026 – Present CEO @ Inject chapter on about.html.",
+      "details": "Updated about.html chapters; 2016 year label shortened; new CEO @ Inject chapter with R&D company description.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "2016 year has no Present suffix\nNew 2026 – Present CEO @ Inject chapter with R&D company description",
+      "createdAt": "2026-08-02T17:49:11.270Z",
+      "updatedAt": "2026-08-02T17:49:30.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:44:49.645Z"
+  "lastSync": "2026-08-02T17:49:57.178Z"
 }
