@@ -156,7 +156,7 @@ span.size-48 {
     order: 1;
     flex: 0 1 auto;
     min-width: 0;
-    max-width: min(24rem, calc(100% - 10rem));
+    max-width: min(28rem, calc(100% - 9rem));
     width: max-content;
     margin: 0;
     padding: 0.55rem 0.7rem;
@@ -183,8 +183,8 @@ span.size-48 {
 #header .navbar .brand-name {
     display: block;
     font-weight: 500;
-    /* Scale name so its line width roughly matches the longer job title */
-    font-size: 1.55em;
+    /* Exact width matched to .jobtitle by js/brand-fit.js */
+    font-size: 1em;
     line-height: 1.2;
     white-space: nowrap;
 }
@@ -313,8 +313,8 @@ span.size-48 {
     }
 
     #header .navbar .brand-name {
-        font-size: 1.5em;
-        white-space: normal;
+        font-size: 1em;
+        white-space: nowrap;
     }
 
     #header .navbar .jobtitle {
