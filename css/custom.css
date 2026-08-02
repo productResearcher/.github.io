@@ -335,12 +335,17 @@ Remove the blue text and underline.
 /* ——— Closing band: thanks, certifications, footer ——— */
 .site-thanks-band {
     width: 100vw;
-    margin-left: calc(50% - 50vw);
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     background: #ffffff;
     color: #1a1a1a;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     padding: 4.5rem 1.5rem;
+    box-sizing: border-box;
 }
 
 .site-thanks {

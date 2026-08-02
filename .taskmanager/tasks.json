@@ -50,7 +50,21 @@
       "acceptanceCriteria": "Hamburger menu open and close uses ~0.85s ease-in-out height transition",
       "createdAt": "2026-08-02T15:30:49.527Z",
       "updatedAt": "2026-08-02T15:35:00.000Z"
+    },
+    {
+      "id": "task-1785689066280",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Unify thanks + footer across portfolio pages",
+      "description": "Centralized Thanks + Certifications + Skills/Tools + social bar in footer.html. Updated index, about, brands, zipay, equinine, dont-show-nin, project-template, and dev pages to use the shared closing include (`footer.html?v=4` + `site-closing-wrap`).",
+      "details": "Removed per-page Thanks markup; full-bleed thanks band CSS updated to break out of container wrappers consistently.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "All main portfolio pages use the same thanks band + certifications + skills/tools + social footer from footer.html\nNo duplicate old Thanks markup remains on those pages\nFooter load path and cache-bust are consistent",
+      "createdAt": "2026-08-02T16:44:00.000Z",
+      "updatedAt": "2026-08-02T16:46:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T16:38:58.631Z"
+  "lastSync": "2026-08-02T16:45:52.369Z"
 }
