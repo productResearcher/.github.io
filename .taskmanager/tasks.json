@@ -341,7 +341,21 @@
       "acceptanceCriteria": "Visible location copy on index and dev without keyword stuffing\nLanding pages for designer and developer local intents\nFooter or about signals South Yorkshire base",
       "createdAt": "2026-08-02T19:12:53.499Z",
       "updatedAt": "2026-08-02T19:18:00.000Z"
+    },
+    {
+      "id": "task-1785698594737",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Expand SEO keyword matrix (stems, geo, long-tail, typos)",
+      "description": "Expand organic SEO with provided stem, role, geo matrix, long-tail hire intents, and typo catch-alls across meta, JSON-LD, and landing page copy.",
+      "details": "Expanded stems/roles/geo/long-tail into landing pages (roles, intents, geo grids, FAQ+FAQPage schema). Machine: meta keywords include typos; JSON-LD jobTitle/knowsAbout/areaServed/keywords/alternateName expanded on index, UX landing, software landing, and dev. Typos kept in meta keywords only (not visible body spam). Updated about/footer/CSS.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Expanded meta keywords include stems, roles, geo matrix, long-tails, and typos\nLanding pages cover roles, geo, and hire-intent copy naturally\nJSON-LD jobTitle/knowsAbout/areaServed/keywords expanded\nTypos stay in machine tags only (not spammy visible body)",
+      "createdAt": "2026-08-02T19:23:14.737Z",
+      "updatedAt": "2026-08-02T19:26:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:16:54.504Z"
+  "lastSync": "2026-08-02T19:25:15.823Z"
 }

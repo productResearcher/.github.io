@@ -1353,3 +1353,29 @@ Remove the blue text and underline.
     color: #a8a8a8;
     line-height: 1.7;
 }
+
+.seo-geo-grid {
+    display: grid;
+    gap: 1.35rem;
+}
+
+@media (min-width: 768px) {
+    .seo-geo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+.seo-geo-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #feb960;
+    margin-bottom: 0.45rem;
+}
+
+.seo-faq-q {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin: 1rem 0 0.35rem;
+}
