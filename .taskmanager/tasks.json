@@ -369,7 +369,21 @@
       "acceptanceCriteria": "No keyword-cloud/geo-matrix/hire-intent lists visible on portfolio pages\nKeywords remain in meta keywords and JSON-LD only\nLanding pages remain human-readable service pages\nChanges committed and pushed via authenticated gh/git without secrets staged",
       "createdAt": "2026-08-02T19:35:21.139Z",
       "updatedAt": "2026-08-02T19:38:00.000Z"
+    },
+    {
+      "id": "task-1785699536765",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Rename nav About Me to Me",
+      "description": "Rename navbar label from About Me to Me in header.html.",
+      "details": "Changed header nav label About Me → Me; bumped header.html load cache to v=7 on pages that include it.",
+      "operationalPhase": "COMPLETE",
+      "priority": "low",
+      "status": "done",
+      "acceptanceCriteria": "Nav menu label reads Me instead of About Me\nLink target unchanged",
+      "createdAt": "2026-08-02T19:38:56.765Z",
+      "updatedAt": "2026-08-02T19:39:30.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:36:46.879Z"
+  "lastSync": "2026-08-02T19:39:20.861Z"
 }
