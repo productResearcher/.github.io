@@ -275,3 +275,223 @@ Remove the blue text and underline.
     line-height: 36px;
     font-style: normal;
 }
+
+/* ——— About page ——— */
+.about-page {
+    padding: 2.5rem 0 1rem;
+}
+
+.about-wrap {
+    max-width: 920px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.about-hero {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(254, 185, 96, 0.25);
+}
+
+@media (min-width: 768px) {
+    .about-hero {
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        gap: 3rem;
+        align-items: start;
+    }
+}
+
+.about-quote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: clamp(1.55rem, 2.6vw, 2.15rem);
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: #FEB960;
+}
+
+.about-title {
+    font-weight: 300;
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    letter-spacing: -0.02em;
+    margin: 0 0 1.25rem;
+}
+
+.about-lede p {
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.75 !important;
+    color: #c8c8c8;
+    margin-bottom: 1.15rem;
+}
+
+.about-lede p:last-child {
+    margin-bottom: 0;
+}
+
+.about-section {
+    margin-bottom: 3.75rem;
+}
+
+.about-section--last {
+    margin-bottom: 1.5rem;
+}
+
+.about-section-title {
+    font-weight: 300;
+    font-size: 1.65rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 1.75rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.about-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.about-chapter {
+    display: grid;
+    gap: 0.75rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-chapter:first-child {
+    padding-top: 0.25rem;
+}
+
+.about-chapter:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .about-chapter {
+        grid-template-columns: minmax(200px, 0.38fr) minmax(0, 0.62fr);
+        gap: 2rem;
+        align-items: start;
+        padding: 1.75rem 0;
+    }
+}
+
+.about-year {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FEB960;
+    margin-bottom: 0.4rem;
+}
+
+.about-chapter-title {
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+.about-chapter-body {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7 !important;
+    color: #bdbdbd;
+}
+
+.about-split {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .about-split {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+.about-split-pane {
+    padding: 1.5rem 1.35rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 2px solid rgba(255, 255, 255, 0.14);
+}
+
+.about-split-pane--accent {
+    border-left-color: #FEB960;
+}
+
+.about-split-pane p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7 !important;
+    color: #c4c4c4;
+}
+
+.about-pane-label {
+    font-weight: 500;
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEB960;
+    margin: 0 0 0.85rem;
+}
+
+.about-process-flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.45rem;
+    margin-top: 1.1rem !important;
+    font-weight: 400 !important;
+    font-size: 0.92rem !important;
+    color: #e8e8e8 !important;
+    line-height: 1.5 !important;
+}
+
+.about-flow-arrow {
+    color: #FEB960;
+    opacity: 0.85;
+}
+
+.about-capabilities {
+    display: grid;
+    gap: 1.75rem;
+}
+
+@media (min-width: 768px) {
+    .about-capabilities {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+.about-capability ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-capability li {
+    font-weight: 300;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    color: #c4c4c4;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.about-capability li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
