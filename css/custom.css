@@ -248,23 +248,20 @@ Remove the blue text and underline.
 }
 
 .old-project-card {
-    width: 100%;
-    height: 100%;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
+.old-project-card .img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .old-project-link:hover .old-project-card {
     border-color: rgba(254, 185, 96, 0.45);
     transform: translateY(-2px);
-}
-
-.old-project-img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
 }
 
 .old-project-label {
