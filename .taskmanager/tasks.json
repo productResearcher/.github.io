@@ -355,7 +355,21 @@
       "acceptanceCriteria": "Expanded meta keywords include stems, roles, geo matrix, long-tails, and typos\nLanding pages cover roles, geo, and hire-intent copy naturally\nJSON-LD jobTitle/knowsAbout/areaServed/keywords expanded\nTypos stay in machine tags only (not spammy visible body)",
       "createdAt": "2026-08-02T19:23:14.737Z",
       "updatedAt": "2026-08-02T19:26:00.000Z"
+    },
+    {
+      "id": "task-1785699321139",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Hide keyword dumps from portfolio UI; keep machine SEO",
+      "description": "Remove visible keyword search dumps from portfolio UI; keep keywords only in meta/JSON-LD. Soften SEO-heavy on-page copy. Commit and push securely.",
+      "details": "Removed visible keyword dumps from index/dev/about/footer and cleaned landing pages (no role/geo/hire-intent keyword clouds). Keywords remain in meta keywords + JSON-LD only. Restored natural portfolio captions.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "No keyword-cloud/geo-matrix/hire-intent lists visible on portfolio pages\nKeywords remain in meta keywords and JSON-LD only\nLanding pages remain human-readable service pages\nChanges committed and pushed via authenticated gh/git without secrets staged",
+      "createdAt": "2026-08-02T19:35:21.139Z",
+      "updatedAt": "2026-08-02T19:38:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T19:25:15.823Z"
+  "lastSync": "2026-08-02T19:36:46.879Z"
 }
