@@ -78,7 +78,20 @@
       "acceptanceCriteria": "Gap between Thanks and Certifications is roughly 2x previous\nGap between Certifications and Skills/Tools is roughly 2x previous",
       "createdAt": "2026-08-02T16:47:00.000Z",
       "updatedAt": "2026-08-02T16:48:00.000Z"
+    },
+    {
+      "id": "task-1785692179986",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "Nudge brand name size down to match job title",
+      "description": "Reduce .brand-name from 1.72em to 1.55em so width aligns with job title.",
+      "details": "Also mobile 1.65em → 1.5em; cache bust custom.css v=11.",
+      "operationalPhase": "COMPLETE",
+      "priority": "low",
+      "status": "done",
+      "createdAt": "2026-08-02T17:36:19.000Z",
+      "updatedAt": "2026-08-02T17:36:19.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:30:59.749Z"
+  "lastSync": "2026-08-02T17:36:30.451Z"
 }
