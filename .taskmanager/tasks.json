@@ -159,7 +159,21 @@
       "acceptanceCriteria": "Collapsed state shows arrow + Go only\nDoes not show bac or full Go back until hover",
       "createdAt": "2026-08-02T17:57:35.645Z",
       "updatedAt": "2026-08-02T17:57:50.000Z"
+    },
+    {
+      "id": "task-1785693561202",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Further reduce collapsed back-btn width",
+      "description": "68px still showed Go b; reduce collapsed max-width further so only Go is visible.",
+      "details": "Reduced .back-btn collapsed max-width from 68px to 62px. Cache-bust custom.css to v=18.",
+      "operationalPhase": "COMPLETE",
+      "priority": "low",
+      "status": "done",
+      "acceptanceCriteria": "Collapsed back button shows arrow + Go without trailing b",
+      "createdAt": "2026-08-02T17:59:21.202Z",
+      "updatedAt": "2026-08-02T17:59:30.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:57:58.807Z"
+  "lastSync": "2026-08-02T17:59:43.805Z"
 }
