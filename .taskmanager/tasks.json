@@ -145,7 +145,21 @@
       "acceptanceCriteria": "Collapsed back button shows arrow + Go\nHover expands to full Go back text",
       "createdAt": "2026-08-02T17:56:06.419Z",
       "updatedAt": "2026-08-02T17:56:30.000Z"
+    },
+    {
+      "id": "task-1785693455645",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Dial back collapsed back-btn width to show only Go",
+      "description": "Collapsed max-width 85px showed Go bac; dial back to a smaller value so only arrow + Go are visible before hover.",
+      "details": "Reduced .back-btn collapsed max-width from 85px to 68px. Cache-bust custom.css to v=17 on project pages.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Collapsed state shows arrow + Go only\nDoes not show bac or full Go back until hover",
+      "createdAt": "2026-08-02T17:57:35.645Z",
+      "updatedAt": "2026-08-02T17:57:50.000Z"
     }
   ],
-  "lastSync": "2026-08-02T17:56:42.614Z"
+  "lastSync": "2026-08-02T17:57:58.807Z"
 }

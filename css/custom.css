@@ -508,7 +508,7 @@ Remove the blue text and underline.
     align-items: center;
     overflow: hidden;
     width: auto;
-    max-width: 85px;
+    max-width: 68px;
     /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
     -webkit-transition: max-width 0.5s;
     transition: max-width 0.5s;
