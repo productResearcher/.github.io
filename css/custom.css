@@ -4,13 +4,39 @@
 /*animate.style import */
 import 'animate.css';
 
+/*
+ * Site theme tokens — shared palette for consistency.
+ * Values match the existing dark portfolio look (no visual redesign).
+ * Project inventory / counter: js/site-projects.js
+ */
+:root {
+    --site-font: 'Roboto', 'Lato', 'Open Sans', 'Montserrat', sans-serif;
+    --site-font-display: 'Lato', 'Noto Sans', 'Open Sans', sans-serif;
+    --site-text: #D9D9D9;
+    --site-text-muted: #8c8b8b;
+    --site-text-soft: gray;
+    --site-text-inverse: #000000;
+    --site-text-bright: #ffffff;
+    --site-surface: #212121;
+    --site-surface-raised: #1F2124;
+    --site-tag-border: rgba(145, 145, 145, 0.15);
+    --site-rule: rgb(216, 216, 216);
+    --site-letter-spacing: 0.5px;
+    --site-section-gap: 6rem;
+    --site-radius-tag: 25px;
+    --site-thanks-bg: #ffffff;
+    --site-thanks-text: #1a1a1a;
+    --site-accent-mark: #b87a20;
+    --site-border-soft: rgba(255, 255, 255, 0.12);
+}
+
 /*Body*/
 body {
-    font-family: 'Roboto', 'Lato', 'Open Sans', 'Montserrat',  sans-serif;
-    color: #D9D9D9 !important;
+    font-family: var(--site-font);
+    color: var(--site-text) !important;
     font-size: 16;
     line-height: ;
-    letter-spacing: 0.5;
+    letter-spacing: var(--site-letter-spacing);
     font-style: normal;
     
 }
@@ -31,7 +57,7 @@ body {
 
 .heading-p {
     font-weight: 100;
-    color: gray;
+    color: var(--site-text-soft);
     padding-left: 10px;
     padding-right: 10xp;
 }
@@ -71,7 +97,7 @@ h2 {
 }
 
 .tiny-description {
-    color: #000000 !important;
+    color: var(--site-text-inverse) !important;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -85,7 +111,7 @@ i {
 
 /*Card */
 .card{
-    background: #212121 !important;
+    background: var(--site-surface) !important;
     padding-top: 20px;
 }
 .card-body {
@@ -97,18 +123,18 @@ i {
 
 /*Vertical Rule*/
 .vl {
-    border-left: 2px dashed rgb(216, 216, 216);
+    border-left: 2px dashed var(--site-rule);
     height: 0.2em;
     margin: 0px 2px 0px 4px;
 }
 
-/*Tag Section*/
+/*Tag Section — used on list cards + opened project pages (dates, roles, platforms) */
 .bd-highlight {
-    border: 2px dashed rgba(145, 145, 145, 0.15);
-    border-radius: 25px;
-    color: #ffffff !important;
+    border: 2px dashed var(--site-tag-border);
+    border-radius: var(--site-radius-tag);
+    color: var(--site-text-bright) !important;
     font-weight: 500;
-    background: #1F2124;
+    background: var(--site-surface-raised);
     text-transform: uppercase;
     font-size: 0.9vw;
    text-align: center;
@@ -254,7 +280,7 @@ span.size-48 {
 #header .navbar .counter {
     margin: 0;
     font-size: clamp(1.15rem, 3.2vw, 2rem);
-    font-family: "Lato", "Noto Sans", "Open Sans", sans-serif;
+    font-family: var(--site-font-display);
     font-weight: 600;
     line-height: 1.1;
 }
@@ -263,7 +289,7 @@ span.size-48 {
     margin: 0.15rem 0 0;
     font-size: clamp(0.5rem, 1.2vw, 0.78rem);
     letter-spacing: clamp(0.2px, 0.15vw, 1px);
-    color: #8c8b8b;
+    color: var(--site-text-muted);
     line-height: 1.2;
     text-transform: uppercase;
     white-space: nowrap;
@@ -548,10 +574,10 @@ Remove the blue text and underline.
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    background: #ffffff;
-    color: #1a1a1a;
+    background: var(--site-thanks-bg);
+    color: var(--site-thanks-text);
     margin-top: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: var(--site-section-gap);
     padding: 4.5rem 1.5rem;
     box-sizing: border-box;
 }
@@ -601,7 +627,7 @@ Remove the blue text and underline.
 
 .thanks-note mark {
     background: transparent;
-    color: #b87a20;
+    color: var(--site-accent-mark);
     padding: 0;
 }
 
@@ -630,7 +656,7 @@ Remove the blue text and underline.
 }
 
 .site-certs {
-    margin-bottom: 6rem;
+    margin-bottom: var(--site-section-gap);
 }
 
 .site-closing-title {
@@ -639,7 +665,7 @@ Remove the blue text and underline.
     letter-spacing: -0.01em;
     margin: 0 0 1.25rem;
     padding-bottom: 0.65rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid var(--site-border-soft);
 }
 
 .certs-grid {

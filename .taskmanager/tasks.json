@@ -187,7 +187,35 @@
       "acceptanceCriteria": "Dev Skills no longer lists Bootstrap or October CMS\nTools lists Cursor instead of Invision\nGoogle Apps label is Google tech stack",
       "createdAt": "2026-08-02T18:01:49.962Z",
       "updatedAt": "2026-08-02T18:02:00.000Z"
+    },
+    {
+      "id": "task-1785694910224",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Project registry + live navbar counter",
+      "description": "Add a central project registry for UI UX + Dev projects and drive the navbar PROJECTS SO FAR counter from that total so it increases when projects are added.",
+      "details": "Added js/site-projects.js registry (UI UX featured 3 + other 3 + Dev 7 = 13). Navbar counter updates from registry after header load. Cards tagged with data-site-project. Designs preserved.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Counter equals UI UX featured + other + Dev project counts\nAdding a project to the registry updates the displayed total\nExisting UI UX, thank-you/footer, and project detail designs are unchanged",
+      "createdAt": "2026-08-02T18:21:50.224Z",
+      "updatedAt": "2026-08-02T18:24:00.000Z"
+    },
+    {
+      "id": "task-1785694911809",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Document shared theme tokens for consistency",
+      "description": "Add CSS custom properties reflecting the current dark portfolio theme so new work stays consistent without redesigning featured cards, thanks, certs, skills, socials, or project detail layouts.",
+      "details": "Added :root theme tokens in custom.css and remapped body, tags, counter, thanks, certs to those tokens without changing visual design. Cache-bust custom.css v=19.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Theme tokens exist in custom.css for core colors/spacing used by shared sections\nVisual design of listed sections remains the same",
+      "createdAt": "2026-08-02T18:21:51.809Z",
+      "updatedAt": "2026-08-02T18:24:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T18:02:08.510Z"
+  "lastSync": "2026-08-02T18:24:00.909Z"
 }
