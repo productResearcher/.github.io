@@ -285,21 +285,206 @@ Remove the blue text and underline.
 .img-fluid {
     max-width: 100%;
 }
-/*Thanks section*/
-.thanks-h{
-    font-size: 66px;
-    font-weight: 100;
-    letter-spacing: -1.61px;
-    line-height: 76px;
-    margin-top: 30px;
-    font-style: normal;
+/* ——— Closing band: thanks, certifications, footer ——— */
+.site-thanks {
+    display: grid;
+    gap: 1rem;
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
 }
-.thanks-p{
-    font-size: 33px;
-    font-weight: 100;
-    letter-spacing: -1.61px;
-    line-height: 36px;
-    font-style: normal;
+
+@media (min-width: 768px) {
+    .site-thanks {
+        grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.7fr);
+        gap: 2rem;
+        align-items: center;
+    }
+}
+
+.thanks-h,
+.Thanks-h {
+    font-size: clamp(1.75rem, 3vw, 2.35rem);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0 0 0.65rem;
+}
+
+.thanks-p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 1.65;
+    color: #c8c8c8;
+    margin: 0 0 0.65rem;
+}
+
+.thanks-note {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.thanks-note mark {
+    background: transparent;
+    color: #FEB960;
+    padding: 0;
+}
+
+.site-thanks-badge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .site-thanks-badge {
+        justify-content: flex-end;
+    }
+}
+
+.thanks-linkedin {
+    white-space: nowrap;
+}
+
+.site-closing {
+    padding-bottom: 1.25rem;
+}
+
+.site-closing-title {
+    font-weight: 300;
+    font-size: 1.35rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.certs-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.65rem 1.5rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 576px) {
+    .certs-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 992px) {
+    .certs-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.cert-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.cert-org {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FEB960;
+    line-height: 1.3;
+}
+
+.cert-name {
+    font-size: 0.92rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #e0e0e0;
+}
+
+.site-footer {
+    margin-top: 1.35rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-skills {
+    display: grid;
+    gap: 1.25rem 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+    .footer-skills {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem 1.75rem;
+    }
+}
+
+.footer-skill-col h3 {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem;
+    color: #f0f0f0;
+}
+
+.footer-skill-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-skill-col li {
+    margin: 0;
+    padding: 0.2rem 0;
+    line-height: 1.35;
+}
+
+.footer-skill-col a {
+    color: #9a9a9a;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 300;
+}
+
+.footer-skill-col a:hover,
+.footer-skill-col a:focus {
+    color: #FEB960;
+}
+
+.footer-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-credit {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #9a9a9a;
 }
 
 /* ——— About page ——— */
