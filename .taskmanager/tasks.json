@@ -257,7 +257,21 @@
       "acceptanceCriteria": "Case study reads as Map → Sketch → Decide → Prototype → Test\nNo invented GV rituals claimed as completed\nExisting activities preserved under clearer day framing\nIndex card remains accurate",
       "createdAt": "2026-08-02T18:46:57.755Z",
       "updatedAt": "2026-08-02T18:50:00.000Z"
+    },
+    {
+      "id": "task-1785697330046",
+      "projectId": "oV35jYqklyRQtMgBal6U",
+      "epicId": null,
+      "title": "N9: strengthen Day 5 Test narrative from page evidence",
+      "description": "Rewrite Day 5 in equinine.html with clearer test setup, findings grounded in page constraints/concept, and stakeholder outcome.",
+      "details": "Rewrote Day 5 with test setup (5 remote sessions), assumptions tested, findings (form factor, race vs 24h, gait/temp trust, GPS, AI scepticism), concept lock, and next steps.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Day 5 includes setup, what was tested, findings, and next step\nFindings align with form-factor, race monitoring, and companion app already described",
+      "createdAt": "2026-08-02T19:02:10.046Z",
+      "updatedAt": "2026-08-02T19:03:00.000Z"
     }
   ],
-  "lastSync": "2026-08-02T18:48:15.151Z"
+  "lastSync": "2026-08-02T19:02:42.181Z"
 }
