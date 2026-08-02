@@ -323,10 +323,35 @@ Remove the blue text and underline.
 
 @media (min-width: 768px) {
     .about-hero {
-        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
         gap: 3rem;
         align-items: start;
     }
+}
+
+.about-portrait-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.about-portrait-frame {
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    border: 1px solid rgba(254, 185, 96, 0.35);
+    background:
+        linear-gradient(135deg, rgba(254, 185, 96, 0.08), transparent 55%),
+        #1a1a1a;
+}
+
+.about-portrait-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 
 .about-quote {
@@ -335,9 +360,9 @@ Remove the blue text and underline.
     border: 0;
     font-family: 'Lato', 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: clamp(1.55rem, 2.6vw, 2.15rem);
-    line-height: 1.35;
-    letter-spacing: -0.02em;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    letter-spacing: normal;
     color: #FEB960;
 }
 
