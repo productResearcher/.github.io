@@ -811,3 +811,68 @@ Remove the blue text and underline.
     border-bottom: 0;
     padding-bottom: 0;
 }
+
+/* Project thumbs up / thumbs down */
+.project-votes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.project-votes.is-busy {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.project-votes.has-error .project-vote-btn {
+    outline: 2px solid #ff6b6b;
+}
+
+.project-vote-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 5.5rem;
+}
+
+.project-vote-btn .vote-count {
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    min-width: 1.25rem;
+}
+
+.project-vote-btn.is-selected {
+    box-shadow: 0 0 0 2px #feb960;
+    transform: translateY(-1px);
+}
+
+.project-votes.has-voted .project-vote-btn:not(.is-selected) {
+    opacity: 0.55;
+}
+
+.project-votes--card {
+    margin-top: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.project-votes--card .project-vote-btn {
+    min-width: 0;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+}
+
+.project-votes--card .vote-label {
+    display: none;
+}
+
+.project-votes--footer {
+    margin-left: 30px;
+}
+
+@media (max-width: 576px) {
+    .project-votes--footer {
+        margin-left: 0;
+    }
+}
