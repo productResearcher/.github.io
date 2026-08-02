@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "projects": [
+    {
+      "id": "jxrFNFQIAqQB3lJZ5EhK",
+      "name": "UX Portfolio (github.io)",
+      "description": "Abdulkadir Mohammed personal UX/portfolio site on GitHub Pages",
+      "ownerEmail": "abdulkadirhaldu@gmail.com",
+      "proposedOwnerEmail": "abdulkadirhaldu@gmail.com",
+      "ownershipStatus": "pending_owner_claim",
+      "createdAt": "2026-08-02T15:30:00.000Z",
+      "updatedAt": "2026-08-02T15:35:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1785684648843",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Slow nav hover expand with smooth CSS transitions",
+      "description": "Hover was snapping height/padding instantly because only color properties were transitioned. Move hover styles into custom.css and animate height, padding, letter-spacing, and colors over ~0.7s ease-in-out.",
+      "details": "Removed instant hover height jumps from header.html inline styles; custom.css now owns base + hover with 0.7s ease-in-out.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Nav link hover expands height and letter-spacing smoothly without a snap\nMobile collapse open/close feels slower than Bootstrap default\nheader.html no longer applies instant hover height jumps",
+      "createdAt": "2026-08-02T15:30:48.843Z",
+      "updatedAt": "2026-08-02T15:35:00.000Z"
+    },
+    {
+      "id": "task-1785684649527",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Slow mobile navbar collapse open/close",
+      "description": "Override Bootstrap .collapsing 0.35s height transition with a longer ease-in-out duration so the hamburger menu open/close feels smoother.",
+      "details": "Set .navbar-collapse.collapsing and .collapsing to height 0.85s ease-in-out with !important to beat Bootstrap.",
+      "operationalPhase": "COMPLETE",
+      "priority": "medium",
+      "status": "done",
+      "acceptanceCriteria": "Hamburger menu open and close uses ~0.85s ease-in-out height transition",
+      "createdAt": "2026-08-02T15:30:49.527Z",
+      "updatedAt": "2026-08-02T15:35:00.000Z"
+    }
+  ],
+  "lastSync": "2026-08-02T15:32:13.496Z"
+}

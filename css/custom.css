@@ -145,15 +145,41 @@ span.size-48 {
 .divider-large {
     padding: 50px;
 }
-/* Slower, smoother mobile navbar open/close */
-.navbar-collapse.collapsing {
-    transition-duration: 0.65s;
-    transition-timing-function: ease-in-out;
+/* Slower, smoother mobile navbar open/close (override Bootstrap 0.35s) */
+.navbar-collapse.collapsing,
+.collapsing {
+    transition: height 0.85s ease-in-out !important;
 }
 
-/* Smooth nav link hover highlight */
-.nav-a {
-    transition: background-color 0.45s ease, color 0.45s ease, letter-spacing 0.45s ease;
+/* Smooth nav link hover — height/padding/letter-spacing must all animate */
+.navbar .nav-a.nav-link {
+    letter-spacing: 0;
+    height: 77px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        background-color 0.7s ease-in-out,
+        color 0.7s ease-in-out,
+        letter-spacing 0.7s ease-in-out,
+        height 0.7s ease-in-out,
+        padding 0.7s ease-in-out,
+        box-shadow 0.7s ease-in-out,
+        border-color 0.7s ease-in-out;
+}
+
+.navbar .nav-a.nav-link:hover,
+.navbar .nav-a.nav-link:focus,
+.navbar .nav-a.nav-link.active,
+.navbar .nav-a.nav-link:active {
+    letter-spacing: 1px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #FEB960 !important;
+    color: #000000 !important;
+    height: 100px;
 }
 
 /*Project*/
