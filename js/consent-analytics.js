@@ -2,6 +2,7 @@
   "use strict";
 
   var STORAGE_KEY = "abdul_cookie_consent_v1";
+  var COOKIE_NAME = "abdul_cookie_consent";
   var Tawk_API = window.Tawk_API || {};
   window.Tawk_API = Tawk_API;
 
@@ -22,8 +23,28 @@
     wait_for_update: 500
   });
 
+  function readCookie(name) {
+    var match = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([.$?*|{}()[\]\\/+^])/g, "\\$1") + "=([^;]*)"));
+    return match ? decodeURIComponent(match[1]) : null;
+  }
+
+  function writeCookie(name, value, days) {
+    var maxAge = (days || 365) * 24 * 60 * 60;
+    document.cookie =
+      name +
+      "=" +
+      encodeURIComponent(value) +
+      "; path=/; max-age=" +
+      maxAge +
+      "; SameSite=Lax";
+  }
+
   function readConsent() {
     try {
+      var cookieVal = readCookie(COOKIE_NAME);
+      if (cookieVal === "accepted" || cookieVal === "rejected") {
+        return { status: cookieVal };
+      }
       var raw = localStorage.getItem(STORAGE_KEY);
       return raw ? JSON.parse(raw) : null;
     } catch (e) {
@@ -37,6 +58,7 @@
     } catch (e) {
       /* ignore quota / private mode */
     }
+    writeCookie(COOKIE_NAME, value.status, 365);
   }
 
   function loadScript(src, attrs) {
