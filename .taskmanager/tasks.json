@@ -397,7 +397,21 @@
       "acceptanceCriteria": "Firebase Hosting config deploys static site to project abdulkadirmohammed\nGA loads only after cookie consent\nCookie banner with Accept/Reject and link to privacy/terms\nPrivacy Policy and Terms of Use pages exist\nSitemap/robots remain valid for SEO\nProduction-ready headers and caching where appropriate",
       "createdAt": "2026-08-02T20:08:14.684Z",
       "updatedAt": "2026-08-02T20:14:00.000Z"
+    },
+    {
+      "id": "task-1785748704328",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Fix Me nav link to absolute /about.html",
+      "description": "Fix Me nav relative about.html link that loads stale /dev/about.html from Dev pages.",
+      "details": "Me nav used relative about.html; from /dev/dev.html that resolved to stale /dev/about.html. Changed to /about.html and bumped header include to v=8.",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Me nav link always opens /about.html from any page including /dev/\ndev/about.html is not used by the main nav\nChange pushed to GitHub Pages",
+      "createdAt": "2026-08-03T09:18:24.328Z",
+      "updatedAt": "2026-08-03T09:19:30.000Z"
     }
   ],
-  "lastSync": "2026-08-03T09:18:50.958Z"
+  "lastSync": "2026-08-03T09:19:54.240Z"
 }
