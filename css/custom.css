@@ -339,6 +339,18 @@ span.size-48 {
     justify-content: center;
 }
 
+#header .navbar .navbar-flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 77px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.75rem;
+    line-height: 1;
+    user-select: none;
+}
+
 @media (max-width: 991.98px) {
     #header .navbar > .navbar-brand {
         max-width: min(18rem, calc(100% - 10.5rem));

@@ -411,7 +411,21 @@
       "acceptanceCriteria": "Me nav link always opens /about.html from any page including /dev/\ndev/about.html is not used by the main nav\nChange pushed to GitHub Pages",
       "createdAt": "2026-08-03T09:18:24.328Z",
       "updatedAt": "2026-08-03T09:19:30.000Z"
+    },
+    {
+      "id": "task-1785750541450",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Add British flag in menubar after Me",
+      "description": "Place a UK flag in the navbar menubar immediately after the Me nav item.",
+      "details": "Moved UK flag into navbar-nav after Me; added .navbar-flag styles in custom.css; bumped header include to v=9 and custom.css to v=28.",
+      "operationalPhase": "COMPLETE",
+      "priority": "low",
+      "status": "done",
+      "acceptanceCriteria": "British flag appears in the menubar after Me\nFlag is visible on desktop and mobile nav\nNo duplicate awkward placement if previously only in navbar-end",
+      "createdAt": "2026-08-03T09:49:01.450Z",
+      "updatedAt": "2026-08-03T09:51:00.000Z"
     }
   ],
-  "lastSync": "2026-08-03T09:19:54.240Z"
+  "lastSync": "2026-08-03T09:50:53.839Z"
 }
