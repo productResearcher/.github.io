@@ -439,7 +439,21 @@
       "acceptanceCriteria": "Latest main (UK flag after Me) pushed to origin/main\nFirebase Hosting production deploy succeeds for abdulkadirmohammed",
       "createdAt": "2026-08-03T10:44:38.009Z",
       "updatedAt": "2026-08-03T10:45:00.000Z"
+    },
+    {
+      "id": "task-1785781820936",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Fix Firebase HTTPS risk warning",
+      "description": "Diagnose and fix Firebase Hosting HTTPS/SSL or Safe Browsing risk flagging for the portfolio site.",
+      "details": "Root cause: www.abdulkadirmohammed.com serves temporary CN=firebaseapp.com cert (browser risk warning). Apex abdulkadirmohammed.com A record is 192.168.1.1 (private), so ACME fails with ACME_HTTP_ERROR. Firebase needs A 199.36.158.100, TXT hosting-site=abdulkadirmohammed, and ACME TXT _acme-challenge. Recreated custom domains; blocked on WhogoHost/GO54 DNS changes by user.",
+      "operationalPhase": "CONSTRUCT",
+      "priority": "high",
+      "status": "in-progress",
+      "acceptanceCriteria": "Firebase HTTPS/SSL issue identified and fixed so the site is no longer flagged as risky\nSite loads cleanly over HTTPS without browser risk warnings",
+      "createdAt": "2026-08-03T18:30:20.936Z",
+      "updatedAt": "2026-08-03T18:37:00.000Z"
     }
   ],
-  "lastSync": "2026-08-03T18:37:51.034Z"
+  "lastSync": "2026-08-03T18:38:13.453Z"
 }
