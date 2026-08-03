@@ -425,7 +425,21 @@
       "acceptanceCriteria": "British flag appears in the menubar after Me\nFlag is visible on desktop and mobile nav\nNo duplicate awkward placement if previously only in navbar-end",
       "createdAt": "2026-08-03T09:49:01.450Z",
       "updatedAt": "2026-08-03T09:51:00.000Z"
+    },
+    {
+      "id": "task-1785753878009",
+      "projectId": "jxrFNFQIAqQB3lJZ5EhK",
+      "epicId": null,
+      "title": "Deploy UK flag nav to GitHub + Firebase",
+      "description": "Push main to GitHub and deploy static site to Firebase Hosting production.",
+      "details": "Pushed a2000d4 to origin/main. Firebase Hosting deploy succeeded for abdulkadirmohammed (https://abdulkadirmohammed.web.app).",
+      "operationalPhase": "COMPLETE",
+      "priority": "high",
+      "status": "done",
+      "acceptanceCriteria": "Latest main (UK flag after Me) pushed to origin/main\nFirebase Hosting production deploy succeeds for abdulkadirmohammed",
+      "createdAt": "2026-08-03T10:44:38.009Z",
+      "updatedAt": "2026-08-03T10:45:00.000Z"
     }
   ],
-  "lastSync": "2026-08-03T09:50:53.839Z"
+  "lastSync": "2026-08-03T10:45:31.386Z"
 }
